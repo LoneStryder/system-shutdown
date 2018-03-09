@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="newellpc" name="Randy Newell's PC" ip="216.192.8.5" type="3">
+
+  <portsForCrack val="5"/>
+  <ports>21, 22, 25, 80, 1433, 104, 6881, 443,</ports>
+  <portRemap>21=42, 22=44, 25=50, 80=160, 1433=2866, 104=208</portRemap>
+  <trace time="120"/>
+  
+  <proxy time="1"/>
+  <firewall level="14" solution="SECUREFIREWALL"/>
+  
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  
+</Computer>

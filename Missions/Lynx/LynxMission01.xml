@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="LynxMission01">
+  
+  <goals>
+    <goal type="fileupload" target="dPsyInternal" file="Employee_Breach_Incident.dec" path="projects/investigations" destTarget="crymz0nDropServer" destPath="Drop/Uploads" decrypt="true"/>
+  </goals>
+
+  <!--
+  missionStart val="0">changeSongDLC</missionStart>
+  -->
+ 
+  <nextMission>Missions/Lynx/LynxMission02.xml</nextMission>
+  
+  <!--
+  <posting title="Finding Lynx">Find Lynx and invite him to the crew.</posting>
+  -->
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>A Memory of The Past</subject>
+    <body>Hey #PLAYERNAME#, I think I have an idea on another member's whereabouts, but I think that this is gonna be a little tricky.
+	
+	If you don't recall, Lynx was our memory forensics expert. He was a fanatic back in the day and the best at what he did. However, I've been poking around a security firm called "Psylance" and it seems as though they're performing an investigation into a breach in one of the staff member's PC's.
+	
+	Now, obviously this hacker could be anyone, however, Lynx used to work for Psylance security and the system that was attacked was an old co-worker's of Lynx. One that I hear gave him a lot of trouble way back when.
+	
+	This of course just could be a mere coincedence but it's the most promising lead I have for now and since there's no more work for you right now, there's no harm done investigating, right?
+	
+	Anyway, we're not getting anywhere without looking into them reports so go see if you can grab a copy off the server. If you do, upload me a decrypted copy would you?
+	
+	I've linked you to an IRC that Psylance employees tend to use, see if you can find your way into their servers from there.
+	</body>
+
+  <attachments>
+     <link comp="dPsyIRC"/>
+  </attachments>
+  
+  </email>
+  
+</mission>

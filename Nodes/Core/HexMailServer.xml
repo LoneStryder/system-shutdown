@@ -6,6 +6,7 @@
   <account username="Crymz0n" password="blackhawk" type="2"/>
   <account username="coolclyde36" password="splinter1" type="2"/>
   <account username="r0byn132" password="mistletoe" type="2"/>
+  <account username="TMichael" password="lickitysplit" type="2"/>
 
   <!-- Localizer note!
   Never translate the "sender" or "recipient" fields. In cases where something mentions a password
@@ -23,6 +24,34 @@ IP Address: 192.154.1.241
 -Robyn
 
 </email>
+
+	<email recipient="TMichael" sender="OfficialPsylance@psymail.com" subject="Start Of Investigation">
+
+	In reply to your request (and in accordance with our ToS) we will shortly begin an investigation into the recent breach into your personal home system.
+	
+	Please be assured that we will work tirelessly to catch the person responsible and to ensure that you will get the justice you want.
+	
+	Thank you for your incredible devotion to the company.
+	
+	Yours Faithfully - D. Phelps (Head of the Psylance Internal Investigations Division)
+	
+	(P.S: Please ensure you are signed up to our company mail service to ensure more efficient and secure transit of mail between staff members. Thanks)
+	(P.P.S: The server itself can be found here: #PSYMAIL_IP#)
+	(P.P.P.S: Please do not download a copy of this email as distribution could be disastrous for the company)
+
+	</email>
+
+	<email recipient="TMichael" sender="OfficialPsylance@psymail.com" subject="Investigation Status">
+
+	I am pleased to inform you that an investigation is underway about the attack on your personal computer. We have yet to catch the hacker responsible, however the trail is strong.
+  
+  In the meantime, we hope that the compensation you have received is enough to get you back on your feet after this terrible incident.
+  
+  Thanks for placing your faith in Psylance's hands and I hope to see you around the offices again soon.
+  
+  Yours faithfully - D. Phelps (Head of the Psylance Internal Investigations Division)
+
+	</email>
 
   </mailServer>
 

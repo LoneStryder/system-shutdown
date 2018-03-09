@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="LynxMission02">
+  
+  <goals>
+    <goal type="filedownload" target="newellpc" file="MemForensics.exe" path="bin"/>
+  </goals>
+
+  <!--
+  missionStart val="0">changeSongDLC</missionStart>
+  -->
+ 
+  <nextMission>Missions/Lynx/LynxMission03.xml</nextMission>
+  
+  <!--
+  <posting title="Finding Lynx">Find Lynx and invite him to the crew.</posting>
+  -->
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>A Memory of The Past</subject>
+    <body>Oh... This is bad
+	
+	It appears as though the hacker, (hopefully Lynx) is in it deep. They attacked an employee outright. They might have even done a little damage to the company systems too. In fact, that probably explains why the security was so weak for a security firm...
+	
+	Whatever, right now our top priority is tracking this hacker down before Psylance does. Obviously we're slightly behind since they already have the tools for the job - whereas we don't. Ah but don't worry I have a plan!
+	
+	Why not track down their forensics agents and take the tools.
+	
+	The hard part is where to start; I suppose I could link you to the system of the guy who was attacked but I doubt there'd be anything there. 
+	
+	Snoop around there until I find something else. If lucks on our side, you may find something useful, like a log or an email or something... Maybe even the forensics tool itself?
+	
+	Reply back if you do manage to find something useful... Hurry!
+	</body>
+
+  <attachments>
+     <link comp="VictimPC"/>
+  </attachments>
+  
+  </email>
+  
+</mission>

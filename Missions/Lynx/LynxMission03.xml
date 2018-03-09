@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="LynxMission03">
+  
+  <goals>
+    <goal type="getadmin" target="lp"/>
+  </goals>
+
+  <!--
+  missionStart val="0">changeSongDLC</missionStart>
+  -->
+ 
+  <nextMission>Missions/Lynx/LynxMission03.xml</nextMission>
+  
+  <!--
+  <posting title="Finding Lynx">Find Lynx and invite him to the crew.</posting>
+  -->
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>A Memory of The Past</subject>
+    <body>Wait.. You found it?!
+	
+Well, I didn't expect that.Good job!
+
+Anyway, Z10N actually managed to find me a working, STABLE version of memdumpgenerator. Lucky for us ey?
+
+It's on the asset stash. I'd recommend going back and taking a look at Michaels' system with it. Maybe you'll pick up Lynx's trace?
+
+Reply back if you get into a system of Lynx's.
+
+	</body>
+  
+  </email>
+  
+</mission>
