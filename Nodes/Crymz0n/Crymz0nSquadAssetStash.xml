@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="crymz0nAssetStash" name="Crymz0n Squad Asset Stash" type="empty">
+
+  <portsForCrack val="5"/>
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+  <account username="#PLAYERNAME#" password="rosered"/>
+  
+  <file path="home" name="note.txt">Guys... please don't mess with the asset stash unless you really need to. Too many files went missing last time. Only copy files plz :(
+  
+-Crymz0n</file>
+
+  <file path="bin/Programs" name="notice.txt">As I find programs I will add them to this folder. Keep a look out for them.
+  
+-Crymz0n</file>
+
+  <file path="bin/Programs" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  
+  <file path="bin/ThemeChanger" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  
+  <file path="bin/ThemeChanger/Themes" name="White-Theme.sys">#WHITE_THEME#</file>
+  <file path="bin/ThemeChanger/Themes" name="Green-Theme.sys">#GREEN_THEME#</file>
+  <file path="bin/ThemeChanger/Themes" name="Yellow-Theme.sys">#YELLOW_THEME#</file>
+  <file path="bin/ThemeChanger/Themes" name="Teal-Theme.sys">#TEAL_THEME#</file>
+  <file path="bin/ThemeChanger/Themes" name="Base-Theme.sys">#BASE_THEME#</file>
+  <file path="bin/ThemeChanger/Themes" name="LE-Theme.sys">#PURPLE_THEME#</file>
+  <file path="bin/ThemeChanger/Themes" name="Mint-Theme.sys">#MINT_THEME#</file>
+  <file path="bin/ThemeChanger/Themes" name="Extra_Themes.txt">If you're looking for more themes, I've found a website with a few good ones on there.
+  
+Here's the address: 135.236.4.189</file>
+  
+</Computer>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ph4nt4smPC" name="Ph4nt4sm's PC" type="2">
+
+  <portsForCrack val="3"/>
+  <ports>21, 22, 25, 554</ports>
+  <portRemap>21=12, 25=52</portRemap>
+  <trace time="40"/>
+ 
+  <firewall level="8" solution="YHDNVBYE"/>
+  
+  <dlink target="ph4nt4smGateway"/>
+  <positionNear target="ph4nt4smGateway" position="1" total="2" extraDistance="0.1" force="false"/>
+  
+</Computer>

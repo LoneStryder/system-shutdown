@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sms1">
+  <goals>
+    <goal type="filechange" target="oblivionmain" file="BLACKLIST.txt" path="home/Blacklist" keyword="192.164.9.4" removal="true"/>
+	<goal type="filechange" target="oblivionmain" file="BLACKLIST.txt" path="home/Blacklist" keyword="184.253.4.19" caseSensitive="true"/>
+  </goals>
+
+  <!--Add your mission start and end items here-->
+  <missionStart val="0">NONE</missionStart>
+  <missionEnd val="1">addFlags:Z10NStage</missionEnd> 
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+ 
+  <posting title="Dishonest Developers">Help an angry critic get his revenge on some game developers.</posting>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Dishonest Developers</subject>
+    <body>Okay #PLAYERNAME#, this contract should be fun.
+	
+There's this game company called Oblivion Digital, ever heard of them? Well, the gaming community has been hyped for months now about a game that they have been developing called "Nano Ninja"... it was a flop.
+
+So, naturally there was a lot of uproar from fans, however, Oblivion Digital aren't standing for criticism on their game and have resorted to banning people from their forums.
+
+One of those people, a critic named Tymek, came to us with an offer. If we manage to get into Oblivion Digital's network and replace his IP address with the lead developer's, we'll be in for a large sum of money.
+This will of course lock the developer out of the company's system for a while, which could cause some problems for Oblivion Digital... but their games are terrible anyway so who cares? I don't!
+
+The critic's IP address and the company's mainframe is linked below however you'll have to do some rooting around for any other information you need.
+
+TLDR: Gain access to the mainframe, find the lead developer's IP address, edit the blacklist found on the mainframe and replace the IP address listed below with the lead developer's.</body>
+    <attachments>
+	  <link comp="oblivionmain"/>
+      <link comp="tympc"/>
+	  <note title="Editing Text">To edit text on a document simply use the command 'replace' followed by the string you wish to replace, surrounded by speech marks. Finally add what you want the text to be replaced with surround with another pair of speech marks.
+Example: replace "hello world" "bye world"
+The above example would result in the first string (hello world) being replaced with the second string (bye world).</note>
+    </attachments>
+  </email>
+</mission>

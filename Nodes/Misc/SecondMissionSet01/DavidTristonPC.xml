@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="obliviondev" name="David Triston's PC" type="1" ip="184.253.4.19"> 
+
+<portsForCrack val="2" />
+<ports>25, 22, 21, </ports>
+
+<file path="home" name="Poetry.txt">Money... Money money!
+Money makes the world go round,
+Money makes me feel proud,
+Money is love,
+And love is life.</file>
+  
+</Computer>

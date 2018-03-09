@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ph4nt4smSkip">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">NONE</missionEnd> 
+  -->
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+
+  <posting title="Skip to Ph4nt4sm">This mission will allow skipping to further the plot.</posting>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>A Unique Mod</subject>
+    <body>So, erm, yeah this job is weird.
+	
+So a bunch of people from the Digbuild community have asked to have a mod deleted from their community forums. Apparently it was that bad that they started a petition to get the mod removed, but the admins refused. In my opinion, they're all dumb kids whining about a simple game mod, but the funds they've saved up could buy some new RAM for the IRC so... I'm not complaining.
+
+The mod in question is the Potatoes+ Mod... ugh this job sounds pettier by the second...
+
+Look, just get the mod deleted and we get paid, alright? Good.</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="splinterNetBook" name="Splinter's NetBook" icon="DLCLaptop" type="2">
+
+  <portsForCrack val="3" />
+  <ports>80, 25, 21, 22, 554</ports>
+  <trace time="50"/>
+  
+  <dlink target="splinterPC"/>
+  <positionNear target="splinterPC" position="1" total="1" extraDistance="0.1" force="false"/>
+  
+  <eosDevice name="Clyde's ePhone 5S" id="eosSplinterPhone" icon="ePhone" empty="false" passOverride="alpine">
+    <note>Alias Ideas:
+	
+1. Ma3lstrom - Eh, it could work I suppose.
+2. Splinter - I really like the sound of this one!
+3. ErRoR - Too bland.
+</note>
+    <mail username="coolclyde36@hexmail.com" pass="splinter1"/>
+  </eosDevice>
+  
+  <file path="home" name="Unlinking_My_eosDevice.txt">
+   Before I even sat down, Robyn started yelling at me to de-sync my laptop from my phone. Why? I really don't understand why he's worrying. I'll do it some other time, right now I'm focused on the task at hand... taking notes
+  </file>
+  
+  <file path="home" name="Notes.txt">
+   So far, the project is running flawlessly. It's unlike anything I've ever seen before! So how it works is it... well I don't really know how it works! (0_0)
+   The program has a few kinks but they are already being patched as I'm typing this.
+   One thing I did pick up is that the spindown time on this program is phenomenally longer compared to other cracking tools! It's probably much faster to kill the process when it's finished it's job rather than waiting for the ridiculously slow spindown.
+   [NOTES TO BE CONTINUED... eventually]
+  </file>
+  
+</Computer>

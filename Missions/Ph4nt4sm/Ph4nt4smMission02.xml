@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="ph4nt4smMission02">
+  <goals>
+    <goal type="getadmin" target="ph4nt4smBotnetManager"/>
+  </goals>
+ 
+  <nextMission>Missions/Ph4nt4sm/Ph4nt4smMission03.xml</nextMission>
+  
+  <posting title="Finding Ph4nt4sm: Port Issues">Find Ph4nt4sm and invite her to the crew.</posting>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Port Issues</subject>
+    <body>I've checked the IP you sent me. That system's got us on the right track! It seems she's improved her botnet too...
+	
+	
+Port 554 is locked? No problem; I performed some research into a cracking tool that we could use to get through the port and into Ph4nt4sm's system.
+	
+Hear me out, this shady looking group of hackers collaborated on a project called RTSPSmasher. I'll provide you a link to one of their machines, however do be careful. They're very likely not to store such a valuable project on one of their regular systems, my guess is you'll have to root around for it.
+	
+I know I don't have to tell you of all people this, but be careful. These guys aren't amateurs so remember to take your time and be methodical. 
+	
+	
+Reply back to when you're into Ph4nt4sm's botnet server.</body>
+
+  <attachments>
+     <link comp="splinterPC"/>
+  </attachments>
+  
+  </email>
+  
+</mission>

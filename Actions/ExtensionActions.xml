@@ -1,0 +1,136 @@
+<ConditionalActions>
+  
+  <!-- Starting Actions -->
+  
+  <Instantly>
+  
+    <RunFunction FunctionName="setFaction:crymz0nFaction" FunctionValue="0"/>
+    <RunFunction FunctionName="setHubServer:crymz0nHub" FunctionValue="0"/>
+	<RunFunction FunctionName="setAssetServer:crymz0nAssetStash" FunctionValue="0"/>
+	
+	<AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial01.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Misc/FirstMissionSet/DDoSer.xml" TargetComp="crymz0nHub"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
+	
+  </Instantly>
+  
+  <HasFlags requiredFlags="trialsStart">
+  
+    <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
+	
+  </HasFlags>
+  
+  <!-- First Side Mission Set Actions -->
+  
+  <HasFlags requiredFlags="DDoSerStart">
+  
+	<AddAsset FileName="NetworkBuster_SCRIPT.txt" FileContents="#BINARYSMALL#73316738003567#BINARYSMALL#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+	
+  </HasFlags>
+  
+  <!-- Ph4nt4sm Questline Actions -->
+  
+  <HasFlags requiredFlags="ph4nt4smStage">
+  
+    <LoadMission MissionName="Missions/Ph4nt4sm/Ph4nt4smMission01.xml"/>
+	<RunFunction FunctionName="changeSongDLC" FunctionValue="3"/>
+	
+	<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	
+	<AddAsset path="home" FileName="Ph4nt4smRecruitmentMessage.txt" FileContents="Hey Ph4nt4sm,
+
+I know it's been a while since we last spoke... too long, but something extremely important has come up and need you for a job.
+  
+I'm leaving the IP to our old IRC chat on this document. Join it ASAP!
+  
+IRC: 283.901.1.65
+  
+Please hurry, the task at hand is urgent.
+
+-Crymz0n
+  
+P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR LOGS!" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+
+  </HasFlags>
+  
+  <!-- Second Side Mission Set Actions -->
+
+  <!-- Z10N Questline Actions -->
+  
+  <HasFlags requiredFlags="Z10NStage">
+  
+    <LoadMission MissionName="Missions/Z10N/Z10NMission01.xml"/>
+	<RunFunction FunctionName="changeSongDLC" FunctionValue="4"/>
+	<AddAsset FileName="Important_Message.dec" FileContents="#BINARY#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+	
+  </HasFlags>
+  
+  <HasFlags requiredFlags="Z10NStage2">
+  
+    <AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	
+  </HasFlags>
+  
+  <!-- Ending Actions -->
+  
+  <OnConnect target="ex0dusProxyNode03">
+  
+	<LaunchHackScript Filepath="HackerScripts/Ex0dusFirstEncounter.txt" DelayHost="fastActionHost" Delay="5.5" SourceComp="ex0dusProxyNode03" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  
+  </OnConnect>
+  
+  <HasFlags requiredFlags="DemoComplete">
+  
+    <LoadMission MissionName="Missions/Ex0dus/EndCredits.xml"/>
+	
+  </HasFlags>
+  
+  <!-- Dialogue Actions -->
+  
+  <Instantly>
+  
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="0">Right, now to test that the chat's still working.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="0">Testing.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="0">Testing.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="0">1.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="0">2.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="0">3.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="0">Looks good so far.</AddIRCMessage>
+  
+  </Instantly>
+  
+  <OnConnect target="crymz0nHub">
+	
+	<AddIRCMessage Author="Channel" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="14">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="14.5">User "#PLAYERNAME#" added to whitelist.</AddIRCMessage>
+    
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="17">Ah good, you're here.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="21">Good job on those trials, I expected you to slip up a few times due to how long you've been inactive.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="27">Anyway, from now on I'll be offering you jobs through the IRC to pass the time and help test your skills whilst I search for the others.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="35">Like the last time you were here, jobs will be on a first come first served basis. For now that won't be a problem but as the chat fills up you may be short on jobs to run.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="46">Right then, I'm gonna get back to work on finding the others, you can accept a few jobs here or find another contractor to help you.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="56">Just stay away from CSEC, alright? I don't want to lose another good hacker to those fools.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="62">Welcome back my friend.</AddIRCMessage>
+    
+  </OnConnect>
+  
+  <HasFlags requiredFlags="ph4nt4smDialogue">
+  
+    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="5">Hey @Ph4nt4sm, you made it! Welcome!</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="8">Yeah, I got your message. But let me make one thing clear - I'm only here because the job seems urgent and it sounds like it'll be worth my while. As soon as it's done, I'm out.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="17">Hello to you too I guess...</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="21">Oh @#PLAYERNAME#, I see you're in on this too. Well if he managed to persuade you to join, then I'll trust him. Now let's get down to business, are you gonna tell us what's going on or what?</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="31">All you need to know is that a rogue hacker has valuable tools and we're going to pay him a visit.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="37">I'd like more of an explanation than that.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="41">All in due time my friend, anyway for now you two can get to work on other jobs while I search for the others.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="47">Hmph, typical. @#PLAYERNAME#, I don't see how you stayed friends with him after what he did.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="52">But I'll play his game, see where it takes me.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="fastActionHost" Delay="55">For now then I'm off to do some contracts, see you later!</AddIRCMessage>
+	
+  </HasFlags>
+  
+</ConditionalActions>

@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="netEduComp" name="Network Education Archives" security="6" type="3">
+  <ports>80</ports>
+  <missionListingServer name="Network Education Archives" group="NetEdu" assigner="false" public="true"/>
+</Computer>

@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="decserver" name="SouthSide Data Encryption Relay" ip="254.128.5.21" type="3">
+
+  <portsForCrack val="4"/>
+  <ports>22, 21, 25, 80, 1433</ports>
+  <trace time="50"/>
+  
+  <firewall level="6" solution="1G4BH6BN"/>
+  
+  <file path="log" name="@90_167.423.67.89_Disconnected">@90 167.423.67.89 Disconnected</file>
+  
+</Computer>

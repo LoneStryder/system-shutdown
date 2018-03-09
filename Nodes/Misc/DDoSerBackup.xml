@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ddoserBackup" name="Xx_T0aDSnIpEr_xX's Blueberry PI" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 80</ports>
+  <firewall level="5" solution="JDUB8ALPG1"/>
+  
+  <dlink target="ddoserPC"/>
+  
+  <file path="home" name="NetworkBreaker_SCRIPT_BACKUP.txt">#BINARYSMALL#15268875412657132467186531#BINARYSMALL#</file>
+
+</Computer>

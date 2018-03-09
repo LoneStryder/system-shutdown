@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ph4nt4smBotnetManager" name="Ph4nt4sm Botnet Management Server" icon="DLCServer" ip="164.42.54.214" type="3">
+
+  <portsForCrack val="4"/>
+  <ports>21, 22, 25, 554</ports>
+  <portRemap>21=12, 25=52</portRemap>
+  <trace time="50"/>
+  
+  <firewall level="6" solution="PSUCTVEGN"/>
+  
+  <dlink target="ph4nt4smGateway"/>
+  <positionNear target="ph4nt4smGateway" position="1" total="2" extraDistance="0.1" force="false"/>
+  
+</Computer>

@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="themes" name="XServerThemes.net" ip="135.236.4.189" type="empty">
+
+  <portsForCrack val="2"/>
+  <ports>22, 21, 25, 80, 1433</ports>
+  
+  <customthemefile path="home/themes" name="Spiral_x-server.sys" themePath="Themes/SpiralTheme.xml"/>
+  <customthemefile path="home/themes" name="TransitionLight_x-server.sys" themePath="Themes/TransitionTheme.xml"/>
+  <customthemefile path="home/themes" name="TransitionDark_x-server.sys" themePath="Themes/TransitionThemeAlt.xml"/>
+  <customthemefile path="home/themes" name="EM_x-server.sys" themePath="Themes/EMTheme.xml"/>
+  
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+
+</Computer>

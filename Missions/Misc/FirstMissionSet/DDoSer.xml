@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="fms2">
+  <goals>
+    <goal type="filedeletion" target="ddoserPC" file="NetworkBreaker_SCRIPT.txt" path="home"/>
+	<goal type="filedeletion" target="ddoserBackup" file="NetworkBreaker_SCRIPT_BACKUP.txt" path="home"/>
+	<goal type="fileupload" target="crymz0nAssetStash" file="NetworkBuster_SCRIPT.txt" path="home" destTarget="ddoserPC" destPath="home/DDoSScript"/>
+  </goals>
+
+  <!--Add your mission start and end items here-->
+  <missionStart val="0">addFlags:DDoSerStart</missionStart>
+  <missionEnd val="1">addFlags:ph4nt4smStage</missionEnd> 
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+ 
+  <posting title="Script Kiddie">Find and take revenge on a script kiddie who has interrupted Crymz0n's plans.</posting>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Script Kiddie</subject>
+    <body>#PLAYERNAME#, we have a small problem.
+	
+Whilst searching for clues as to where the others are, I stumbled upon and was DDoSed by a script kiddie. Knowing that they might have my IP, they could potentially halt this entire operation for WEEKS!
+
+Normally in circumstances like this, I'd take care of it myself, but seeing as though I have a lot of work to do and so little time, I'm going to need you to do it for me.
+Don't worry about security, they probably don't even know what an antivirus is so this job'll be a breeze.
+
+Check the asset server, I've uploaded a fake script. If he finally figures out that the script has a different name and fixes it then... let's just say his hacking days will come to a swift end, if you catch my drift.
+
+Also check for any backups of the script he may have, we don't want him becoming active again anytime soon.
+	
+Thanks for taking care of this.</body>
+    <attachments>
+      <link comp="ddoserPC"/>
+    </attachments>
+  </email>
+</mission>
