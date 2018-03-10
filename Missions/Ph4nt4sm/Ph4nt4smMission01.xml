@@ -18,14 +18,14 @@
   <email>
     <sender>Crymz0n</sender>
     <subject>The First Member</subject>
-    <body>Right, I think it's about time we start getting the gang back together.
+    <body>Finally, I think we can start getting the team back together.
 	
 	
-Unfortunately for us, it won't be as easy to track them down as it was to track you. Most of them have covered their tracks extraordinarily well... with an exception however.
+Unfortunately for us it won't be easy to track them down, after we all parted ways most covered their tracks extraordinarily well, with an exception however.
 
-Our old friend Ph4nt4sm continued her hacking career solo after you left the scene. She may be a black-hat, but she has good intentions at heart. We're going to need her skills and tools to help with our project.
+From what I know Ph4nt4sm continued her hacking gig solo after you left the scene. Coming from a white-hat background, she's an expert at pen-testing and can find her way around a network easily. We'll need her botnet expertise for the job.
 
-Like I said, she was the exception. She may be a damn good hacker, capable of breaching systems in minutes, but she's sloppy when it comes to logs. Whilst scrawling for clues on her status I found a system that contained an IP from one of her old botnet computers.
+Like I said however, she was the exception. Naturally running a botnet makes it near-impossible to clean up all your logs, plus her added ignorance makes for a guaranteed way to find her. I've managed to find a system she used in a previous attack so I'm hoping there are still traces of her tampering left behind.
 
 Also I've updated our asset stash with all the tools I could find, you should copy them when you have the time.
 
@@ -34,7 +34,7 @@ I should be getting back to finding evidence of where the others are, so I'm goi
 If you find anything useful, like an IP address to a system of hers, reply to me with it and I'll take a look when I have the time.
 
 
-We've got no time to lose, so get to it #PLAYERNAME#.</body>
+We're on the clock, so get to it #PLAYERNAME#.</body>
 
   <attachments>
      <link comp="botPC01"/>

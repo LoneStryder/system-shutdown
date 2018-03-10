@@ -17,17 +17,14 @@
   <email>
     <sender>Crymz0n</sender>
     <subject>Script Kiddie</subject>
-    <body>#PLAYERNAME#, we have a small problem.
-	
-Whilst searching for clues as to where the others are, I stumbled upon and was DDoSed by a script kiddie. Knowing that they might have my IP, they could potentially halt this entire operation for WEEKS!
+    <body>Sigh, I'm not proud of what I'm about to tell you but here goes. Whilst searching for clues on the team I stumbled into a Script Kiddie's system... and he DDoSed me.
 
-Normally in circumstances like this, I'd take care of it myself, but seeing as though I have a lot of work to do and so little time, I'm going to need you to do it for me.
-Don't worry about security, they probably don't even know what an antivirus is so this job'll be a breeze.
+Normally if this ever happened I'd deal with it myself, but since we're on an unknown time limit I'm asking you to take care of this for me. Security-wise there shouldn't be a problem, I'd be surprised if they even knew what an antivirus was so this job'll be a breeze.
 
-Check the asset server, I've uploaded a fake script. If he finally figures out that the script has a different name and fixes it then... let's just say his hacking days will come to a swift end, if you catch my drift.
+Check the asset server, I've provided a fake script for you to upload. If he finally figures out the script's named incorrectly and fixes it then... let's just say his 'hacking' days will come to a swift end, if you catch my drift.
 
-Also check for any backups of the script he may have, we don't want him becoming active again anytime soon.
-	
+Also check for any backups of the script he might have we don't want him being a nuisance again anytime soon.
+
 Thanks for taking care of this.</body>
     <attachments>
       <link comp="ddoserPC"/>

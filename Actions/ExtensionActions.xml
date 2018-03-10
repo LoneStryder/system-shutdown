@@ -79,7 +79,7 @@ P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR L
   
   <OnConnect target="ex0dusProxyNode03">
   
-	<LaunchHackScript Filepath="HackerScripts/Ex0dusFirstEncounter.txt" DelayHost="fastActionHost" Delay="5.5" SourceComp="ex0dusProxyNode03" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="Scripts/Ex0dusFirstEncounter.txt" DelayHost="fastActionHost" Delay="5.5" SourceComp="ex0dusProxyNode03" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
   
   </OnConnect>
   

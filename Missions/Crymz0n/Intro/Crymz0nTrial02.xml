@@ -21,7 +21,7 @@
 	
 This time you are going to be hacking into an old rivals 'battlestation' as he calls it, shouldn't be too hard to crack. You're probably going to need the programs you found on our backup server in order to get in.
 
-The last thing you need to know is that this guy is a firewall FANATIC! Too bad all you need to do is repeatedly run the 'analyze' command until you get the password, then just type 'solve' along with the password and you're golden!
+The last thing you need to know is that this guy is a firewall FANATIC! It's a shame Hacknet comes with the 'analyze' and 'solve' commands built-in isn't it?
 
 Delete his system files and reply back for the final challenge.</body>
     <attachments>

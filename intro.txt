@@ -5,9 +5,9 @@ INITIALISING PRE-RECORDED MESSAGE
  
 Hey, it's Crymz0n, glad to hear you're gonna be hacking again.
  
-Your new rig I've setup for you has our lastest custom build of Hacknet installed, so it should be easy to settle into things.
+I've remotely installed my latest custom Hacknet build to your rig, so it should be easy to settle into things.
  
-I'll send you an email for when you get this thing up and running.
+I've left you an email for when you get this thing up and running.
  
  
 See you soon.

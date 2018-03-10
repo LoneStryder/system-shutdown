@@ -18,17 +18,20 @@
   <email>
     <sender>Crymz0n</sender>
     <subject>A Memory of The Past</subject>
-    <body>Wait.. You found it?!
-	
-Well, I didn't expect that.Good job!
+    <body>Nice, you actually found what we need!
 
-Anyway, Z10N actually managed to find me a working, STABLE version of memdumpgenerator. Lucky for us ey?
+Looks like Psylance have produced a new batch of memory dumps for the forensics team to analyze, how about we check those dumps instead?
 
-It's on the asset stash. I'd recommend going back and taking a look at Michaels' system with it. Maybe you'll pick up Lynx's trace?
+If you find anything related to Lynx in those memory dumps, wipe them from Psylance's servers. Make sure to keep a copy for yourself though.
 
-Reply back if you get into a system of Lynx's.
+Delete their dump generator too for good measure. We don't want Psylance coming after you instead.
+
+Reply back if you find your way into any of Lynx's systems.
 
 	</body>
+	
+	<attachments>
+    </attachments>
   
   </email>
   
