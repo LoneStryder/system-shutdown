@@ -16,7 +16,7 @@
   <!-- Description that appears within Hacknet -->
   <Description> --- System Shutdown ---
 
-A highly prestigious hacker has gone rogue, threatening to use new-found tools to obliterate anyone in his path. It's up to you to find and stop him.</Description>
+One of CSEC's top operatives has gone rogue, taking powerful and experimental hacking tools with him. It's up to your team to find and stop him.</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/Crymz0nSquad.xml</Faction>
@@ -57,47 +57,38 @@ A highly prestigious hacker has gone rogue, threatening to use new-found tools t
         public string WorkshopPreviewImagePath;
   -->
   
-  <WorkshopDescription>#HackerJAM honourable mention as a close competitor for third place. An exeptional re-introduction to Hacknet.
+  <WorkshopDescription>You've been a retired hacker for quite some time, until an old friend contacts you saying it's time to bring the gang back together.
+
+One of CSEC's top operatives has gone rogue, bringing with him an arsenal of powerful and experimental hacking tools. You and your team are going to find this hacker, and take back what he stole. But once you succeed, what will you decide to do with them?
 
 ----------------------------------------------------------------------------------------------------
 
-WARNING: Labyrinths DLC Required.
-http://store.steampowered.com/app/521840/Hacknet__Labyrinths/
+This is currently an unfinished expansion for Hacknet following a new protagonist and taking place after the events of Hacknet and Hacknet: Labyrinths.
 
-Visit our trello page to follow all CODENAME: Downfall developments.
-https://trello.com/b/jCkwegPX/codename-downfall-roadmap
+System Shutdown currently includes:
+
+- Between 1-2 hours of gameplay.
+- A thorough introduction covering the basics.
+- A new cast of detailed characters.
+- 2 complete main questlines. (5 Planned)
+- A few entertaining side missions.
+- Various nodes and networks to explore.
+- (Soon to be a few easter eggs, but their areas haven't been added yet.)
+
+And an accidental jumpscare near the end. ;P
+
+----------------------------------------------------------------------------------------------------
+
+#HackerJAM honourable mention as a close competitor for third place. An exceptional re-introduction to Hacknet.
+
+Visit our Trello page to follow our progress.
+https://trello.com/b/jCkwegPX/system-shutdown-roadmap
+
+We also have a GitHub if you don't mind spoilers.
+https://github.com/TheLoneStryder/system-shutdown
 
 If you want to try the original HackerJAM demo, here's the download link.
-http://www.moddb.com/downloads/mirror/126599/113/4f0851678744468c0d8d7768722bb20b/?referer=http%3A%2F%2Fwww.moddb.com%2Fmembers%2Fcrafter-bros106%2Fdownloads
-
-----------------------------------------------------------------------------------------------------
-
--- System Shutdown --
-
-A highly prestigious hacker has gone rogue, threatening to use new-found tools to obliterate anyone in his path. It's up to you to find and stop him.
-
-Rejoin the thrilling world of hacking you left long ago, and reunite with an old friend.
-
-Form an elite team of hackers and face a threat greater than you have ever faced before.
-
-Aquire new programs along the way and face countless new systems.
-
-(The demo has barely any of that yet, but it's a taster of what's to come. ;P)
-
-----------------------------------------------------------------------------------------------------
-
-Our Expansion Currently Offers:
-
-- Over an hour of gameplay.
-- 1 Immersing Introduction
-- 3 Introductory Trials
-- 2 Complete Questlines
-- 2 Side Missions
-- 5 Explorable Networks
-- 36 Nodes to Access
-- 1 Free (Accidental) Jumpscare
-
-All contained in over an hour of gameplay.
+http://www.moddb.com/groups/indie-gamers/downloads/codename-downfall-hackerjam-demo
 
 ----------------------------------------------------------------------------------------------------
 

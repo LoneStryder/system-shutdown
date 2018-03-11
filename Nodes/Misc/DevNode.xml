@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="devNode" name="Developer Node" icon="DLCServer" ip="4.3.2.1" type="empty">
+
+  <DHSDaemon groupName="Developer Node" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255,0,97" allowContractAbbandon="false"></DHSDaemon>
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+   
+</Computer>
