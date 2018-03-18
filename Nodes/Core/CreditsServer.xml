@@ -2,27 +2,34 @@
 <Computer id="credits" name="Crymz0n Core Mainframe" security="5" type="4">
 
   <file path="home" name="CreditsData.txt">
-%---  CODENAME: Downfall  ---
+%---  System Shutdown  ---
 
-^Writen By
-Dylan Jones (Stryder)
+^Developed by Stryder and Jammy.
 
-^Programming
-Dylan Jones
-Jamie Parker (Jammy)
 
-^Side Missions
-Jamie Parker
 
-^Backgrounds
+^Music
+0ld Tapes - Tonspender
+
+^Themes
 Max Pixel - Spiral Theme
 hdimageson - Transition Themes
 
-^Music
-TBA
+^Writer
+Stryder
 
-^Trailer
-Dylan Jones
+^Testers
+Thundor
+
+^Special thanks to...
+
+Matt Trobbiani, for creating the game we all know and love.
+
+And KBM, for gracing us mere mortals with the enlightenment that is Pwnage.
+
+
+
+A passion project created for the #HackerJAM competition.
 
 
 
@@ -30,6 +37,6 @@ Dylan Jones
 
 </file>
 
-  <CreditsDaemon Title="Primary Protocols" ButtonText=">Shutdown_" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsRunActions.xml"/>
+  <CreditsDaemon Title="Primary Protocols" ButtonText=">Shutdown_" ConditionalActionSetToRunOnButtonPressPath="Actions/Credits.xml"/>
   
 </Computer>

@@ -1,0 +1,108 @@
+<ConditionalActions>
+  
+  <!-- Starting Actions -->
+  
+  <Instantly>
+  
+    <RunFunction FunctionName="setFaction:crymz0nFaction" FunctionValue="0"/>
+    <RunFunction FunctionName="setHubServer:crymz0nHub" FunctionValue="0"/>
+	<RunFunction FunctionName="setAssetServer:crymz0nAssetStash" FunctionValue="0"/>
+	
+	<AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial01.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Misc/FirstMissionSet/DDoSer.xml" TargetComp="crymz0nHub"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
+	
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/Ph4nt4smSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/Z10NSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<!-- <AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/TSkip.xml" TargetComp="devNode" AssignmentTag="Stryder" StartsComplete="false"/> -->
+	<!-- <AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/0verloadSkip.xml" TargetComp="devNode" AssignmentTag="Stryder" StartsComplete="false"/> -->
+	
+	<AddConditionalActions Filepath="Actions/Dialogue.xml"/>
+	
+  </Instantly>
+  
+  <HasFlags requiredFlags="trialsStart">
+  
+    <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
+	
+  </HasFlags>
+  
+  <!-- First Side Mission Set Actions -->
+  
+  <HasFlags requiredFlags="DDoSerStart">
+  
+	<AddAsset FileName="NetworkBuster_SCRIPT.txt" FileContents="#BINARYSMALL#73316738003567#BINARYSMALL#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+	
+  </HasFlags>
+  
+  <!-- Ph4nt4sm Questline Actions -->
+  
+  <HasFlags requiredFlags="ph4nt4smStage">
+  
+    <LoadMission MissionName="Missions/Ph4nt4sm/Ph4nt4smMission01.xml"/>
+	<RunFunction FunctionName="playCustomSong:Music/Old_Tapes.ogg"/>
+	
+	<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	
+	<AddAsset path="home" FileName="Ph4nt4smRecruitmentMessage.txt" FileContents="Hey Ph4nt4sm,
+
+I know it's been a while since we last spoke... too long, but something extremely important has come up and need you for a job.
+  
+I'm leaving the IP to our old IRC chat on this document. Join it ASAP!
+  
+IRC: 283.901.1.65
+  
+Please hurry, the task at hand is urgent.
+
+-Crymz0n
+  
+P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR LOGS!" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+
+  </HasFlags>
+  
+  <!-- Second Side Mission Set Actions -->
+
+  <!-- Z10N Questline Actions -->
+  
+  <HasFlags requiredFlags="Z10NStage">
+	
+    <LoadMission MissionName="Missions/Z10N/Z10NMission01.xml"/>
+	<RunFunction FunctionName="changeSongDLC" FunctionValue="4"/>
+	<AddAsset FileName="Important_Message.dec" FileContents="#BINARY#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+	
+  </HasFlags>
+  
+  <HasFlags requiredFlags="Z10NStage2">
+  
+    <AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+	
+  </HasFlags>
+  
+  <!-- Lynx Questline Actions -->
+  
+  <HasFlags requiredFlags="LynxStage">
+	
+	<LoadMission MissionName="Missions/Lynx/LynxMission01.xml"/>
+	
+  </HasFlags>
+  
+  <!-- Ending Actions -->
+  
+  <OnConnect target="ex0dusProxyNode03">
+  
+	<LaunchHackScript Filepath="Scripts/Ex0dusFirstEncounter.txt" DelayHost="devNode" Delay="5.5" SourceComp="ex0dusProxyNode03" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+  
+  </OnConnect>
+  
+  <HasFlags requiredFlags="DemoComplete">
+  
+    <LoadMission MissionName="Missions/Ex0dus/EndCredits.xml"/>
+	
+  </HasFlags>
+  
+</ConditionalActions>
