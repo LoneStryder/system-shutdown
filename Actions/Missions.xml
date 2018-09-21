@@ -1,0 +1,31 @@
+<ConditionalActions>
+
+  <!-- First Mission Set Actions -->
+  
+  <HasFlags requiredFlags="DDoSerStart">
+  
+	<AddAsset FileName="NetworkBuster_SCRIPT.txt" FileContents="#BINARYSMALL#73316738003567#BINARYSMALL#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+	
+  </HasFlags>
+
+  <!-- Second Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Third Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Forth Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Fifth Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Sixth Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+
+</ConditionalActions>

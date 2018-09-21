@@ -1,9 +1,11 @@
 <HacknetExtension>
-  <!-- Max name length is 128 characters -->
-	<Name>System Shutdown</Name>
-	<AllowSaves>true</AllowSaves>
-  <!-- a coma separated list of notes that start out as being visible-->
-	<StartingVisibleNodes></StartingVisibleNodes>
+
+  <Name>System Shutdown</Name>    <!-- Max length 128 chars. -->
+  <AllowSaves>true</AllowSaves>
+  
+  <!-- 
+  <StartingVisibleNodes>NodeA,NodeB</StartingVisibleNodes>
+  -->
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
   <StartingMission>Missions/Crymz0n/Intro/Crymz0nTutorial.xml</StartingMission>
@@ -13,7 +15,6 @@
   If you don't need this, set it to "NONE", or just delete the tag.-->
   <StartingActions>Actions/Main.xml</StartingActions>
 
-  <!-- Description that appears within Hacknet -->
   <Description> --- System Shutdown ---
 
 One of CSEC's top operatives has gone rogue, taking powerful and experimental hacking tools with him. It's up to your team to find and stop him.</Description>
@@ -48,14 +49,7 @@ One of CSEC's top operatives has gone rogue, taking powerful and experimental ha
   <ActionsToRunOnSequencerStart>Actions/FinalActions.xml</ActionsToRunOnSequencerStart>
   -->
   
-  <!-- Steam workshop fields -->
-  <!-- 
-  public string WorkshopDescription;
-        public string WorkshopLanguage;
-        public byte WorhsopVisibility = 2;
-        public string WorkshopTags;
-        public string WorkshopPreviewImagePath;
-  -->
+  <!-- Workshop Details -->
   
   <WorkshopDescription>You've been a retired hacker for quite some time, until an old friend contacts you saying it's time to bring the gang back together.
 
@@ -96,33 +90,10 @@ We hope you enjoy the demo to our upcoming extension, if you have any suggestion
 
 - Stryder + Jammy</WorkshopDescription>
 
-  <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>
-
-  <!-- Sets the visibility of this item on the workshop.
-  0 = public
-  1 = friends only
-  2 = private (self only)-->
-  <WorkshopVisibility>0</WorkshopVisibility>
-
-  <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
-  of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
-  <WorkshopTags>Extension,Labyrinths</WorkshopTags>
-
-  <!-- Path to the preview image used on the steam workshop for your extension.
-  This must be within your mod folder, be 16x9 aspect ratio and less than 1MB in size. 
-  I recommend the highest resolution you can provide that fits that criteria, 
-  though steam will likely use a version less than 512x512 in size, and will auto resize it for you.
-  
-  This can be different to the provided Logo.png if you want, as this will not be transparently backed on steam.
-  Supported formats are .png, .jpg and .gif
-  -->
+  <WorkshopVisibility>0</WorkshopVisibility>    <!-- 0 = Public / 1 = Friends / 2 = Private -->
+  <WorkshopTags>Extension,Labyrinths</WorkshopTags>    <!-- Can only add approved tags. -->
   <WorkshopPreviewImagePath>WorkshopLogo.png</WorkshopPreviewImagePath>
-
-  <!-- This is the workshop publish ID. The first time your extension is published to Steam, this will be automatically populated with the ID that steam assigns it.
-  When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
-  and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
-  Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
   <WorkshopPublishID>942757413</WorkshopPublishID>
   
 </HacknetExtension>

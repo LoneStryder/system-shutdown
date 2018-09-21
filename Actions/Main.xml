@@ -9,30 +9,23 @@
 	<RunFunction FunctionName="setAssetServer:crymz0nAssetStash" FunctionValue="0"/>
 	
 	<AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial01.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
-    <AddMissionToHubServer MissionFilepath="Missions/Misc/FirstMissionSet/DDoSer.xml" TargetComp="crymz0nHub"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Misc/MissionSet01/DDoSer.xml" TargetComp="crymz0nHub"/>
     <AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
 	
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/Ph4nt4smSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/Z10NSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Dev/Ph4nt4smSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Dev/Z10NSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Dev/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
 	<!-- <AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/TSkip.xml" TargetComp="devNode" AssignmentTag="Stryder" StartsComplete="false"/> -->
 	<!-- <AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/0verloadSkip.xml" TargetComp="devNode" AssignmentTag="Stryder" StartsComplete="false"/> -->
 	
 	<AddConditionalActions Filepath="Actions/Dialogue.xml"/>
+	<AddConditionalActions Filepath="Actions/Missions.xml"/>
 	
   </Instantly>
   
   <HasFlags requiredFlags="trialsStart">
   
     <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
-	
-  </HasFlags>
-  
-  <!-- First Side Mission Set Actions -->
-  
-  <HasFlags requiredFlags="DDoSerStart">
-  
-	<AddAsset FileName="NetworkBuster_SCRIPT.txt" FileContents="#BINARYSMALL#73316738003567#BINARYSMALL#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
 	
   </HasFlags>
   
