@@ -2,9 +2,9 @@
   
   <Action ValueRequired="1">
     
-	<LoadMission MissionName="Missions/Misc/MissionSetAlert.xml"/>
+	<LoadMission MissionName="Missions/Side/MissionSetAlert.xml"/>
 	
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/SecondMissionSet/DishonestDevelopers.xml" TargetComp="crymz0nHub"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Side/MissionSet02/DishonestDevelopers.xml" TargetComp="crymz0nHub"/>
     <AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial02.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
     <AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
 

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="oveSkip">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  -->
+  <missionEnd val="1">addFlags:overrideStage</missionEnd> 
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+
+  <posting title="Skip to 0verride">This mission will allow skipping to further the plot.</posting>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Test</subject>
+    <body>Reply to continue.</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="oveMission01" activeCheck="true">
+  <goals>
+  </goals>
+
+  <!--Add your mission start and end items here
+  missionStart val="0">addFlags:DDoSerStart</missionStart>
+  missionEnd val="1">addFlags:ph4nt4smStage</missionEnd> 
+  -->
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+ 
+  <!--
+  <posting title="Script Kiddie">Find and take revenge on a script kiddie who has interrupted Crymz0n's plans.</posting>
+  -->
+
+  <email>
+    <sender>Stryder</sender>
+    <subject>Back To Work</subject>
+    <body>This is a blank mission file. Go make something out of it,</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

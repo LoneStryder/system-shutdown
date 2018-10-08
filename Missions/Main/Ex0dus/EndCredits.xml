@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="demoEndingTest">
+  <goals>
+  </goals>
+  
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">addFlags:CSEC_Member</missionStart>
+  missionEnd val="1">addFlags:CSEC_Member</missionEnd> 
+  -->
+  
+  <nextMission IsSilent="false">NONE</nextMission>
+
+  <!--
+  <posting title="Skip to Ending">This mission will activate the CODENAME: Downfall demo ending.</posting>
+  -->
+
+  <email>
+    <sender>Stryder and Jammy</sender>
+    <subject>Thanks For Playing</subject>
+    <body>Hey #PLAYERNAME#, thanks for trying the demo for our upcoming expansion to Hacknet, System Shutdown.
+	
+We are currently working on improving the main extension by adding new characters, questlines and more.
+
+Your support is what keeps us developing this extension, without your help System Shutdown would be either abandoned or a buggy mess.
+
+If you liked our extension or have encountered any bugs along the way, don't hesitate to message us on our Steam Workshop page.
+
+We hope you enjoyed our taster of what's soon to come.
+
+Stryder and Jammy - System Shutdown Devs</body>
+    <attachments>
+	</attachments>
+  </email>
+  
+</mission>

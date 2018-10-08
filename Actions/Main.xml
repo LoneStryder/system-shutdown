@@ -8,18 +8,18 @@
     <RunFunction FunctionName="setHubServer:crymz0nHub" FunctionValue="0"/>
 	<RunFunction FunctionName="setAssetServer:crymz0nAssetStash" FunctionValue="0"/>
 	
-	<AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial01.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
-    <AddMissionToHubServer MissionFilepath="Missions/Misc/MissionSet01/DDoSer.xml" TargetComp="crymz0nHub"/>
-    <AddMissionToHubServer MissionFilepath="Missions/Crymz0n/Intro/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Side/MissionSet01/AUniqueMod.xml" TargetComp="crymz0nHub"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Side/MissionSet01/SubtleInterference.xml" TargetComp="crymz0nHub"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Main/Crymz0n/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
 	
 	<AddMissionToHubServer MissionFilepath="Missions/Dev/Ph4nt4smSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Dev/Z10NSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Dev/XioSkip.xml" TargetComp="devNode" StartsComplete="false"/>
 	<AddMissionToHubServer MissionFilepath="Missions/Dev/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<!-- <AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/TSkip.xml" TargetComp="devNode" AssignmentTag="Stryder" StartsComplete="false"/> -->
-	<!-- <AddMissionToHubServer MissionFilepath="Missions/Misc/DevSkips/0verloadSkip.xml" TargetComp="devNode" AssignmentTag="Stryder" StartsComplete="false"/> -->
+	<AddMissionToHubServer MissionFilepath="Missions/Dev/AlphaSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Dev/0verrideSkip.xml" TargetComp="devNode" StartsComplete="false"/>
 	
+	<AddConditionalActions Filepath="Actions/Side.xml"/>
 	<AddConditionalActions Filepath="Actions/Dialogue.xml"/>
-	<AddConditionalActions Filepath="Actions/Missions.xml"/>
 	
   </Instantly>
   
@@ -33,7 +33,6 @@
   
   <HasFlags requiredFlags="ph4nt4smStage">
   
-    <LoadMission MissionName="Missions/Ph4nt4sm/Ph4nt4smMission01.xml"/>
 	<RunFunction FunctionName="playCustomSong:Music/Old_Tapes.ogg"/>
 	
 	<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
@@ -57,14 +56,11 @@ Please hurry, the task at hand is urgent.
 P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR LOGS!" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
 
   </HasFlags>
-  
-  <!-- Second Side Mission Set Actions -->
 
-  <!-- Z10N Questline Actions -->
+  <!-- Xioreus Questline Actions -->
   
   <HasFlags requiredFlags="Z10NStage">
 	
-    <LoadMission MissionName="Missions/Z10N/Z10NMission01.xml"/>
 	<RunFunction FunctionName="changeSongDLC" FunctionValue="4"/>
 	<AddAsset FileName="Important_Message.dec" FileContents="#BINARY#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
 	
@@ -81,6 +77,25 @@ P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR L
   <HasFlags requiredFlags="LynxStage">
 	
 	<LoadMission MissionName="Missions/Lynx/LynxMission01.xml"/>
+	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
+	
+  </HasFlags>
+  
+  <!-- Alpha Questline Actions -->
+  
+  <HasFlags requiredFlags="alphaStage">
+  
+    <LoadMission MissionName="Missions/Alpha/AlphaMission01.xml"/>
+	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
+  
+  </HasFlags>
+  
+  <!-- 0verride Questline Actions -->
+  
+  <HasFlags requiredFlags="overrideStage">
+  
+    <LoadMission MissionName="Missions/0verride/0verrideMission01.xml"/>
+	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
 	
   </HasFlags>
   
