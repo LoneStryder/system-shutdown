@@ -6,9 +6,8 @@
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   -->
-  <missionEnd val="1">addFlags:alphaStage</missionEnd> 
   
-  <nextMission IsSilent="false">NONE</nextMission>
+  <nextMission IsSilent="false">Missions/Main/Alpha/AlphaMission01.xml</nextMission>
 
   <posting title="Skip to Alpha">This mission will allow skipping to further the plot.</posting>
 

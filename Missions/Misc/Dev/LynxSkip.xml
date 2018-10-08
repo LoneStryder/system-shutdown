@@ -6,9 +6,8 @@
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   -->
-  <missionEnd val="1">addFlags:LynxStage</missionEnd> 
   
-  <nextMission IsSilent="false">NONE</nextMission>
+  <nextMission IsSilent="false">Missions/Main/Lynx/LynxMission01.xml</nextMission>
 
   <posting title="Skip to Lynx">This mission will allow skipping to further the plot.</posting>
 

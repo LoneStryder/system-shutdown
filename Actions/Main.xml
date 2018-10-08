@@ -12,11 +12,11 @@
     <AddMissionToHubServer MissionFilepath="Missions/Side/MissionSet01/SubtleInterference.xml" TargetComp="crymz0nHub"/>
     <AddMissionToHubServer MissionFilepath="Missions/Main/Crymz0n/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
 	
-	<AddMissionToHubServer MissionFilepath="Missions/Dev/Ph4nt4smSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Dev/XioSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Dev/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Dev/AlphaSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Dev/0verrideSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/Ph4nt4smSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/XioSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/AlphaSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/0verrideSkip.xml" TargetComp="devNode" StartsComplete="false"/>
 	
 	<AddConditionalActions Filepath="Actions/Side.xml"/>
 	<AddConditionalActions Filepath="Actions/Dialogue.xml"/>
@@ -76,7 +76,7 @@ P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR L
   
   <HasFlags requiredFlags="LynxStage">
 	
-	<LoadMission MissionName="Missions/Lynx/LynxMission01.xml"/>
+	<LoadMission MissionName="Missions/Main/Lynx/LynxMission01.xml"/>
 	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
 	
   </HasFlags>
@@ -85,7 +85,7 @@ P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR L
   
   <HasFlags requiredFlags="alphaStage">
   
-    <LoadMission MissionName="Missions/Alpha/AlphaMission01.xml"/>
+    <LoadMission MissionName="Missions/Main/Alpha/AlphaMission01.xml"/>
 	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
   
   </HasFlags>
@@ -94,7 +94,7 @@ P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR L
   
   <HasFlags requiredFlags="overrideStage">
   
-    <LoadMission MissionName="Missions/0verride/0verrideMission01.xml"/>
+    <LoadMission MissionName="Missions/Main/0verride/0verrideMission01.xml"/>
 	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
 	
   </HasFlags>
@@ -109,7 +109,7 @@ P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR L
   
   <HasFlags requiredFlags="DemoComplete">
   
-    <LoadMission MissionName="Missions/Ex0dus/EndCredits.xml"/>
+    <LoadMission MissionName="Missions/Main/Ex0dus/EndCredits.xml"/>
 	
   </HasFlags>
   

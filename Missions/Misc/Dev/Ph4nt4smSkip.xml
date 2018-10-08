@@ -6,9 +6,8 @@
   Add your mission start and end items here
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   -->
-  <missionEnd val="1">addFlags:ph4nt4smStage</missionEnd> 
   
-  <nextMission IsSilent="false">NONE</nextMission>
+  <nextMission IsSilent="false">Missions/Main/Ph4nt4sm/Ph4nt4smMission01.xml</nextMission>
 
   <posting title="Skip to Ph4nt4sm">This mission will allow skipping to further the plot.</posting>
 

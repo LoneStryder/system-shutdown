@@ -3,10 +3,7 @@
   <goals>
   </goals>
 
-  <!--Add your mission start and end items here
-  missionStart val="0">addFlags:DDoSerStart</missionStart>
-  missionEnd val="1">addFlags:ph4nt4smStage</missionEnd> 
-  -->
+  <missionStart val="0">addFlags:overrideStage</missionStart>
   
   <nextMission IsSilent="false">NONE</nextMission>
  
