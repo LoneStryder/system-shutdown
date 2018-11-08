@@ -1,14 +1,4 @@
-config playerComp ex0dusProxyNode03 0.2 $#%#$
-connect $#%#$
-delay 2 $#%#$
-openPort 21 $#%#$
-delay 2.3 $#%#$
-openPort 22 $#%#$
-delay 0.3 $#%#$
-openPort 25 $#%#$
-delay 0.83 $#%#$
-openPort 80 $#%#$
-delay 1.3 $#%#$
+delay 8.8 $#%#$
 stopMusic $#%#$
 clearTerminal $#%#$
 delay 1.3 $#%#$
@@ -65,4 +55,3 @@ writel GOODBYE $#%#$
 delay 0.75 $#%#$
 instanttrace $#%#$
 clearTerminal $#%#$
-disconnect $#%#$

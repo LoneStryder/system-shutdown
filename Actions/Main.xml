@@ -17,6 +17,7 @@
 	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
 	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/AlphaSkip.xml" TargetComp="devNode" StartsComplete="false"/>
 	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/0verrideSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/EndingSkip.xml" TargetComp="devNode" StartsComplete="false"/>
 	
 	<AddConditionalActions Filepath="Actions/Side.xml"/>
 	<AddConditionalActions Filepath="Actions/Dialogue.xml"/>
@@ -103,14 +104,15 @@ P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR L
   
   <OnConnect target="ex0dusProxyNode03">
   
-	<LaunchHackScript Filepath="Scripts/Ex0dusFirstEncounter.txt" DelayHost="devNode" Delay="5.5" SourceComp="ex0dusProxyNode03" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="true"/>
+	<LaunchHackScript Filepath="Scripts/Ex0dusTrace.txt" DelayHost="devNode" Delay="5.5"/>
+	<LaunchHackScript Filepath="Scripts/Ex0dusThreat.txt" DelayHost="devNode" Delay="5.5"/>
   
   </OnConnect>
   
-  <HasFlags requiredFlags="DemoComplete">
+  <OnDisconnect target="ispComp">
   
-    <LoadMission MissionName="Missions/Main/Ex0dus/EndCredits.xml"/>
-	
-  </HasFlags>
+	<LoadMission MissionName="Missions/Main/Ex0dus/EndCredits.xml"/>
+  
+  </OnDisconnect>
   
 </ConditionalActions>
