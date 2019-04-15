@@ -1,21 +1,27 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="alpMission01" activeCheck="true">
+  
   <goals>
   </goals>
 
   <missionStart val="0">addFlags:alphaStage</missionStart>
-  
   <nextMission IsSilent="false">NONE</nextMission>
- 
-  <!--
-  <posting title="Script Kiddie">Find and take revenge on a script kiddie who has interrupted Crymz0n's plans.</posting>
-  -->
 
   <email>
-    <sender>Stryder</sender>
-    <subject>Back To Work</subject>
-    <body>This is a blank mission file. Go make something out of it,</body>
+    <sender>Ph4nt4sm</sender>
+    <subject>Alpha</subject>
+    <body>
+    Greeting
+    Botnet attacked (small no. of PCs)
+    Found article about the attack
+    Attack performed by large radical hacking group
+    Attack shows signs of being done by Alpha
+    Here's common IP from attacks on botnet
+    Don't tell anyone (especially Crymz0n)
+    Good luck
+    </body>
     <attachments>
     </attachments>
   </email>
+
 </mission>

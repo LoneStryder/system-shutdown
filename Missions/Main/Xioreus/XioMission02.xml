@@ -1,17 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="xioMission02">
+
   <goals>
     <goal type="getstring" target="167.423.67.89"/>
   </goals>
 
   <missionStart val="0">addFlags:decHead</missionStart>
-  <!--
-  missionEnd val="1">addRank</missionEnd> 
-  -->
   <nextMission>Missions/Main/Xioreus/XioMission03.xml</nextMission>
-  <!-- 
-  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
-  -->
+
   <email>
     <sender>Crymz0n</sender>
     <subject>Location Received</subject>
@@ -23,4 +19,5 @@ If you have any trouble as always, send me the IP address.</body>
     <attachments>
     </attachments>
   </email>
+
 </mission>

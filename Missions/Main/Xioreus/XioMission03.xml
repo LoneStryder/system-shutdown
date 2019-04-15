@@ -1,5 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="xioMission03">
+
   <goals>
     <goal type="filedownload" target="basicPC" file="SQLBufferOverflow.exe" path="bin"/>
   </goals>
@@ -17,7 +18,8 @@ I'll send you the IP to a guy that might have the program we need, MIGHT is the 
 	
 Reply back when you have a copy, whether it's from him or not.</body>
     <attachments>
-	  <link comp="basicPC"/>
+	    <link comp="basicPC"/>
     </attachments>
   </email>
+
 </mission>

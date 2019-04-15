@@ -1,5 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="xioMission04">
+
   <goals>
     <goal type="fileupload" target="cryAssetStash" file="Important_Message.dec" path="home" destTarget="Z10NPC" destPath="home"/>
   </goals>
@@ -19,4 +20,5 @@ Reply to me when you've done it.</body>
     <attachments>
     </attachments>
   </email>
+  
 </mission>

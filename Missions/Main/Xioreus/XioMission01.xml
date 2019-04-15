@@ -1,13 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="xioMission01">
+
   <goals>
     <goal type="fileupload" target="ssdWorkstation02" file="SouthSideDataQuarterlyReport.dec" path="home" destTarget="cryDrop" destPath="Drop/Uploads"/>
   </goals>
 
   <nextMission>Missions/Main/Xioreus/XioMission02.xml</nextMission>
-  <!-- 
-  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
-  -->
+
   <email>
     <sender>Crymz0n</sender>
     <subject>Another Lead</subject>
@@ -26,4 +25,5 @@ We need Xio's skills on hand. Good luck.</body>
       <link comp="ssdWorkstation01"/>
     </attachments>
   </email>
+  
 </mission>

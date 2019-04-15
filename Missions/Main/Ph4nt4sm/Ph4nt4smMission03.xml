@@ -1,16 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="phaMission03">
+
   <goals>
     <goal type="fileupload" target="cryAssetStash" file="Ph4nt4smRecruitmentMessage.txt" path="home" destTarget="ph4nt4smPC" destPath="home"/>
   </goals>
  
   <missionEnd val="1">addRankSilent</missionEnd>
- 
   <nextMission>NONE</nextMission>
-  
-  <!--
-  <posting title="Finding Ph4nt4sm: Port Issues">Find Ph4nt4sm and invite her to the crew.</posting>
-  -->
   
   <email>
     <sender>Crymz0n</sender>
@@ -21,9 +17,8 @@ You should poke around her network and try to find her main PC, that's where she
 
 Copy the message and upload it to her computer. Hopefully we'll hear from her soon after.</body>
 
-  <attachments>
-  </attachments>
-  
+    <attachments>
+    </attachments>
   </email>
   
 </mission>

@@ -1,10 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="triMission02">
+<mission id="cryTrial02">
+
   <goals>
     <goal type="clearfolder" target="cryDrekPC" path="sys"/>
   </goals>
 
-  <nextMission>Missions/Main/Crymz0n/Crymz0nTrial03.xml</nextMission>
+  <nextMission>Missions/Main/Crymz0n/Trials/Crymz0nTrial03.xml</nextMission>
 
   <email>
     <sender>Crymz0n</sender>
@@ -21,4 +22,5 @@ Delete his system files and reply back for the final challenge.</body>
       <link comp="cryDrekPC"/>
     </attachments>
   </email>
+  
 </mission>

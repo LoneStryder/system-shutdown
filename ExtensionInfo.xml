@@ -8,7 +8,7 @@
   -->
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/Main/Crymz0n/Crymz0nTrial00.xml</StartingMission>
+  <StartingMission>Missions/Main/Crymz0n/Trials/Crymz0nTrial00.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
@@ -19,27 +19,18 @@
 
 One of CSEC's top operatives has gone rogue, taking powerful and experimental hacking tools with him. It's up to your team to find and stop him.</Description>
   
-  <!-- Factions involved in this extension! You can define as many or as few as you like -->
+  <!-- Factions involved in this extension! You can define as many or as few as you like. -->
   <Faction>Factions/Crymz0nSquad.xml</Faction>
   
   <StartsWithTutorial>false</StartsWithTutorial>
   
-  <!-- this makes the extension start with the standard restart bootup sequence -->
+  <!-- This makes the extension start with the standard restart bootup sequence. -->
   <HasIntroStartup>true</HasIntroStartup>
   
+  <!-- Base Themes: TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint -->
   <StartingTheme>Themes/TransitionThemeAlt.xml</StartingTheme>
-  <!-- 
-  Base Themes are named:
-  TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
-  -->
-  
-  <!-- You can reference songs from the original game here, or your own .ogg files by path.
-  To reference original songs, use their name in the files! You don't need the path, just the filename. This works for any songs in these folders:
-  Content/Music
-  Content/DLC/Music
-  
-  To Play your own songs, use the path to that song in your extension.
-  For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
+
+  <!-- Can use original + labyrinths songs. Can use custom songs by referencing .ogg filepath. -->
   <IntroStartupSong>The_Quickening</IntroStartupSong>
 
   <!--

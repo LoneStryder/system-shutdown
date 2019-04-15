@@ -1,19 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="LynxMission03">
+<mission id="lynMission03">
   
   <goals>
     <goal type="getadmin" target="lp"/>
   </goals>
-
-  <!--
-  missionStart val="0">changeSongDLC</missionStart>
-  -->
  
   <nextMission>Missions/Main/Lynx/LynxMission03.xml</nextMission>
-  
-  <!--
-  <posting title="Finding Lynx">Find Lynx and invite him to the crew.</posting>
-  -->
 
   <email>
     <sender>Crymz0n</sender>
@@ -28,9 +20,9 @@ Delete their dump generator too for good measure. We don't want Psylance coming 
 
 Reply back if you find your way into any of Lynx's systems.
 
-	</body>
+	  </body>
 	
-	<attachments>
+	  <attachments>
     </attachments>
   
   </email>

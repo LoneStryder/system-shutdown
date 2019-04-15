@@ -1,19 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="demoEndingTest">
+<mission id="exoCredits">
+
   <goals>
   </goals>
   
-  <!-- 
-  Add your mission start and end items here
-  missionStart val="0">addFlags:CSEC_Member</missionStart>
-  missionEnd val="1">addFlags:CSEC_Member</missionEnd> 
-  -->
-  
   <nextMission IsSilent="false">NONE</nextMission>
-
-  <!--
-  <posting title="Skip to Ending">This mission will activate the CODENAME: Downfall demo ending.</posting>
-  -->
 
   <email>
     <sender>Stryder and Jammy</sender>
@@ -30,7 +21,7 @@ We hope you enjoyed our taster of what's soon to come.
 
 Stryder and Jammy - System Shutdown Devs</body>
     <attachments>
-	</attachments>
+	  </attachments>
   </email>
   
 </mission>

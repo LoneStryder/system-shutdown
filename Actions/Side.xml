@@ -4,7 +4,7 @@
   
   <HasFlags requiredFlags="ddosStart">
   
-	<AddAsset FileName="bootinjector.dll" FileContents="#BINARY#" TargetComp="cryAssetStash" TargetFolderpath="home"/>
+	  <AddAsset FileName="bootinjector.dll" FileContents="#BINARY#" TargetComp="cryAssetStash" TargetFolderpath="home"/>
 	
   </HasFlags>
 

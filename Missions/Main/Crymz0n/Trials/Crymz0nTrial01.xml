@@ -1,10 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="triMission01">
+<mission id="cryTrial01">
+
   <goals>
     <goal type="getadmin" target="cryBackupStash"/>
   </goals>
  
-  <nextMission>Missions/Main/Crymz0n/Crymz0nTrial02.xml</nextMission>
+  <nextMission>Missions/Main/Crymz0n/Trials/Crymz0nTrial02.xml</nextMission>
 
   <email>
     <sender>Crymz0n</sender>
@@ -25,4 +26,5 @@ Good luck.</body>
 	  <link comp="netEduComp"/>
     </attachments>
   </email>
+  
 </mission>

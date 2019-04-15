@@ -1,17 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="LynxMission01">
+<mission id="lynMission01">
   
   <goals>
     <goal type="fileupload" target="dPsyInternal" file="Employee_Breach_Incident.dec" path="projects/investigations" destTarget="cryDrop" destPath="Drop/Uploads" decrypt="true"/>
   </goals>
 
   <missionStart val="0">addFlags:LynxStage</missionStart>
- 
   <nextMission>Missions/Main/Lynx/LynxMission02.xml</nextMission>
-  
-  <!--
-  <posting title="Finding Lynx">Find Lynx and invite him to the crew.</posting>
-  -->
 
   <email>
     <sender>Crymz0n</sender>
@@ -28,11 +23,11 @@ Of course this COULD just be a coincidence but honestly I doubt anyone intending
 Look around their network for a report document of some kind, also if it's encrypted do me a favour and decrypt it before sending it to me would ya?
 	
 I've linked you to Psylance's employee IRC chat, they tend to insult their client's stupidity so let's see if you can shame them and get into their network.
-	</body>
+	  </body>
 
-  <attachments>
+    <attachments>
      <link comp="dPsyIRC"/>
-  </attachments>
+    </attachments>
   
   </email>
   

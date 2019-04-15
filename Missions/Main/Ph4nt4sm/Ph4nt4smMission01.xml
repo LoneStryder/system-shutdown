@@ -1,15 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="ph4nt4smMission01">
+<mission id="phaMission01">
   
   <goals>
     <goal type="getstring" target="164.42.54.214"/>
   </goals>
  
   <nextMission>Missions/Main/Ph4nt4sm/Ph4nt4smMission02.xml</nextMission>
-  
-  <!--
-  <posting title="Finding Ph4nt4sm">Find Ph4nt4sm and invite her to the crew.</posting>
-  -->
 
   <email>
     <sender>Crymz0n</sender>
@@ -32,9 +28,9 @@ If you find anything useful, like an IP address to a system of hers, reply to me
 
 We're on the clock, so get to it #PLAYERNAME#.</body>
 
-  <attachments>
+    <attachments>
      <link comp="botPC01"/>
-  </attachments>
+    </attachments>
   
   </email>
   

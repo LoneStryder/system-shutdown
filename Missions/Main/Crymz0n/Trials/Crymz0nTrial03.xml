@@ -1,10 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="triMission03">
+<mission id="cryTrial03">
+
   <goals>
     <goal type="fileupload" target="cryTriTechMain" file="FinancialReport_Q3.dec" path="home" destTarget="cryDrop" destPath="Drop/Uploads"/>
   </goals>
   
-  <nextMission>Missions/Main/Crymz0n/Crymz0nTrialPass.xml</nextMission>
+  <nextMission>Missions/Main/Crymz0n/Trials/Crymz0nTrialPass.xml</nextMission>
   
   <email>
     <sender>Crymz0n</sender>
@@ -24,4 +25,5 @@ That concludes Crymz0n's noob guide to hacking. See you on the other side!</body
 	  <link comp="cryDrop"/>
     </attachments>
   </email>
+
 </mission>

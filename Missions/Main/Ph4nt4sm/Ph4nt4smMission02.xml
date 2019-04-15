@@ -1,12 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="ph4nt4smMission02">
+<mission id="phaMission02">
+
   <goals>
     <goal type="getadmin" target="ph4nt4smBotnetManager"/>
   </goals>
  
   <nextMission>Missions/Main/Ph4nt4sm/Ph4nt4smMission03.xml</nextMission>
-  
-  <posting title="Finding Ph4nt4sm: Port Issues">Find Ph4nt4sm and invite her to the crew.</posting>
 
   <email>
     <sender>Crymz0n</sender>
@@ -23,9 +22,9 @@ If you're leaving logs around like Ph4nt4sm does, then you may as well kiss your
 	
 Reply back if you manage to get into Ph4nt4sm's botnet server.</body>
 
-  <attachments>
+    <attachments>
      <link comp="splinterPC"/>
-  </attachments>
+    </attachments>
   
   </email>
   

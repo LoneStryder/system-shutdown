@@ -1,18 +1,13 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="demoEndingTest" activeCheck="true">
+<mission id="exoDemoEnding" activeCheck="true">
+
   <goals>
-	<goal type="getadmin" target="ispComp"/>
+	  <goal type="getadmin" target="ispComp"/>
   </goals>
   
   <missionStart val="0">addFlags:CSEC_Member</missionStart>
   <missionEnd val="1">addFlags:DemoComplete</missionEnd> 
-
-  
   <nextMission IsSilent="false">NONE</nextMission>
-
-  <!--
-  <posting title="Skip to Ending">This mission will activate the CODENAME: Downfall demo ending.</posting>
-  -->
 
   <email>
     <sender>Crymz0n</sender>
@@ -30,4 +25,5 @@ Onward to victory!</body>
       <link comp="exoProxy03"/>
     </attachments>
   </email>
+
 </mission>
