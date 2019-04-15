@@ -1,34 +1,33 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="fms2">
+<mission id="sidSubtleInterference">
   <goals>
-    <goal type="filedeletion" target="ddoserPC" file="NetworkBreaker_SCRIPT.txt" path="home"/>
-	<goal type="filedeletion" target="ddoserBackup" file="NetworkBreaker_SCRIPT_BACKUP.txt" path="home"/>
-	<goal type="fileupload" target="crymz0nAssetStash" file="NetworkBuster_SCRIPT.txt" path="home" destTarget="ddoserPC" destPath="home/DDoSScript"/>
+    <goal type="clearfolder" target="sidToadPC" path="home/PacketBomb"/>
+	<goal type="clearfolder" target="sidToadPi" path="home/PacketBomb"/>
+	<goal type="fileupload" target="cryAssetStash" file="bootinjector.dll" path="home" destTarget="sidToadPC" destPath="sys"/>
   </goals>
 
-  <!--Add your mission start and end items here-->
-  <missionStart val="0">addFlags:DDoSerStart</missionStart>
-  <missionEnd val="1">NONE</missionEnd> 
+  <missionStart val="0">addFlags:ddosStart</missionStart>
+  <missionEnd val="1">addFlags:phaStart</missionEnd> 
   
-  <nextMission IsSilent="false">Missions/Main/Ph4nt4sm/Ph4nt4smMission01.xml</nextMission>
+  <nextMission>NONE</nextMission>
  
-  <posting title="Subtle Interferance">Take care of a script kiddie who's been interfering with the IRC.</posting>
+  <posting title="Subtle Interference">Take care of a script kiddie who's been interfering with the IRC.</posting>
 
   <email>
     <sender>Crymz0n</sender>
-    <subject>Subtle Interferance</subject>
-    <body>I'll make this quick, since I'd like this guy dealt with asap.
+    <subject>Subtle Interference</subject>
+    <body>I'll make this quick, since I'd like this guy dealt with ASAP.
 	
-I caught our IRC's IP address floating around the Blackhat forums a little while ago, a script kiddie has been DDoSing us ever since.
+I caught our IRC's IP address floating around the Blackhat forums a little while ago, a script kiddie's been DDoSing us ever since.
 
-He's probably just wants our attention, so that's exactly what we'll give him. Hack into his PC and delete whatever DDoS tool he's using.
+He's probably just wants our attention, so that's exactly what we'll give him. Hack into his PC and delete whatever DDoS tool he's using along with any backups. After that I want you to upload a custom injector from the asset stash into his system files. Next time he boots let's just say he'll learn a thing or two about messing with real hackers.
 
 Also you're free to deal as much collateral to his system as you want, if that's up your alley.
 
 This errand's an easy one, enjoy it.</body>
 
     <attachments>
-      <link comp="ddoserPC"/>
+      <link comp="sidToadPC"/>
     </attachments>
   </email>
 </mission>

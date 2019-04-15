@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryDrekPC" name="Drek's Battlestation" type="empty">
+
+  <eosDevice name="Drek's ePhone 6" id="eosDrekPhone" icon="ePhone2" empty="true" passOverride="alpine">
+    <note>TestNote
+More text</note>
+    <note>Note filenames
+Note filenames are generated automatically by taking the first line of the file
+(in this case "Note Filenames") and replacing spaces with underscores.</note>
+    <mail username="test@jmail.com" pass="thisIstheaccountpass" />
+    <mail username="test2@jmail.com" pass="YouCanHaveLotsOfThese" />
+    <file path="eos/test" name="crackedFile.txt">This is mostly useful for jailbroken phones</file>
+  </eosDevice>
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="-1" />
+  
+  <firewall level="6" solution="DrekIsDaBest"/>
+
+  <file path="home" name="WARNING.txt">If you've managed to break into my battlestation then CONGRATULATIONS! I can trace you now. Let this be a warning to you, don't mess with Drek the Hacker!</file>
+
+   <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+   <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  
+</Computer>

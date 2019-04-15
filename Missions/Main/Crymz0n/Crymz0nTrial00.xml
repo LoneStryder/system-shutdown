@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="trialIntro">
+<mission id="triIntro">
   <goals>
   </goals>
   <!-- 
@@ -7,7 +7,7 @@
   missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
   -->
   
-  <missionEnd val="1">addFlags:trialsStart</missionEnd> 
+  <missionEnd val="1">addFlags:triStart</missionEnd> 
   
   <nextMission>Missions/Main/Crymz0n/Crymz0nTrial01.xml</nextMission>
   <!-- 

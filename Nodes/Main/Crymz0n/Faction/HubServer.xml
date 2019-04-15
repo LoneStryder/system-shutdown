@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="crymz0nHub" name="Crymz0n Squad Hub Server" icon="DLCServer" type="empty">
+<Computer id="cryHub" name="Crymz0n Squad Hub Server" icon="DLCServer" type="empty">
 
   <DHSDaemon groupName="Crymz0n Squad Hub Server" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255,0,97" allowContractAbbandon="false">
     <agent name="#PLAYERNAME#" pass="rosered" color="255,255,255"/>

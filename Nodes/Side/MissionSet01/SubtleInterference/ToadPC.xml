@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="sidToadPC" name="Xx_T0aDSnIpEr_xX's PC" type="empty">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="1000"/>
+
+  <dlink target="sidToadPi"/>
+  
+  <file path="home/PacketBomb" name="NetworkBreaker.bat">#BINARY#</file>
+  <file path="home/PacketBomb" name="NetworkBreaker_SCRIPT.txt">#BINARYSMALL#15268875412657132467186531#BINARYSMALL#</file>
+  <file path="home/PacketBomb" name="NOTE:DO_NOT_DELETE_'NetworkBreaker_SCRIPT.txt'">Without the file 'NetworkBreaker_SCRIPT.txt', the NetworkBreaker.bat will fail to function and crash upon opening.</file>
+  <file path="bin" name="BegForMercy.exe">#SSH_CRACK#</file>
+
+</Computer>

@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="tritechWeb" name="TriTech Solutions Web Server" type="3" security="5">
+<Computer id="cryTriTechWeb" name="TriTech Solutions Web Server" type="3" security="5">
 
   <addWebServer name="TriTech Solutions" url="Web/TriTech.html"/>
 
@@ -10,7 +10,7 @@
   <firewall level="-1"/>
   <proxy time="-1"/>
   
-  <dlink target="tritechMainframe"/>
-  <positionNear target="tritechMainframe" position="1" total="1" extraDistance="0.1" force="false"/>
+  <dlink target="cryTriTechMain"/>
+  <positionNear target="cryTriTechMain" position="1" total="1" extraDistance="0.1" force="false"/>
   
 </Computer>

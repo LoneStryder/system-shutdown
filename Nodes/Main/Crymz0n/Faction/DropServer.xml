@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="crymz0nDropServer" name="Crymz0n Squad Drop Server" icon="DLCServer" type="empty">
+<Computer id="cryDrop" name="Crymz0n Squad Drop Server" icon="DLCServer" type="empty">
 
   <uploadServerDaemon name="Crymz0n Squad Drop Server" folder="Drop" needsAuth="false" color="204,116,212"/>
 

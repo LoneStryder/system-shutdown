@@ -2,44 +2,68 @@
 
   <Instantly>
   
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="0">Right, now to test that the chat's still working.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="0">Testing.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="0">Testing.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="0">1.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="0">2.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="0">3.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="0">Looks good so far.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub">Right, now to test that the chat's still working.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub">Testing.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub">Testing.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub">1.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub">2.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub">3.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub">Looks good so far.</AddIRCMessage>
   
   </Instantly>
   
-  <OnConnect target="crymz0nHub">
+  <OnConnect target="cryHub">
 	
-	<AddIRCMessage Author="Channel" TargetComp="crymz0nHub" DelayHost="devNode" Delay="14">!ANNOUNCEMENT!</AddIRCMessage>
-    <AddIRCMessage Author="Channel" TargetComp="crymz0nHub" DelayHost="devNode" Delay="14.5">User "#PLAYERNAME#" added to whitelist.</AddIRCMessage>
+	<AddIRCMessage Author="Channel" TargetComp="cryHub" DelayHost="devNode" Delay="14">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="cryHub" DelayHost="devNode" Delay="14.5">User "#PLAYERNAME#" added to whitelist.</AddIRCMessage>
     
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="17">Ah good, you're here.</AddIRCMessage>
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="21">Good job on those trials, I expected you to slip up a few times due to how long you've been inactive.</AddIRCMessage>
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="27">Anyway, from now on I'll be offering you jobs through the IRC to pass the time and help test your skills whilst I search for the others.</AddIRCMessage>
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="35">Like the last time you were here, jobs will be on a first come first served basis. For now that won't be a problem but as the chat fills up you may be short on jobs to run.</AddIRCMessage>
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="46">Right then, I'm gonna get back to work on finding the others, you can accept a few jobs here or find another contractor to help you.</AddIRCMessage>
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="56">Just stay away from CSEC, alright? I don't want to lose another good hacker to those fools.</AddIRCMessage>
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="62">Welcome back my friend.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="17">Ah good, you're here.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="21">Good job on those trials, I expected you to slip up a few times due to how long you've been inactive.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="27">Anyway, from now on I'll be offering you jobs through the IRC to pass the time and help test your skills whilst I search for the others.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="35">Like the last time you were here, jobs will be on a first come first served basis. For now that won't be a problem but as the chat fills up you may be short on jobs to run.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="46">Right then, I'm gonna get back to work on finding the others, you can accept a few jobs here or find another contractor to help you.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="56">Just stay away from CSEC, alright? I don't want to lose another good hacker to those fools.</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="62">Welcome back my friend.</AddIRCMessage>
     
   </OnConnect>
   
-  <HasFlags requiredFlags="ph4nt4smDialogue">
+  <HasFlags requiredFlags="phaDialogue">
   
-    <AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="5">Hey @Ph4nt4sm, you made it! Welcome!</AddIRCMessage>
-	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="devNode" Delay="8">Yeah, I got your message. But let me make one thing clear - I'm only here because the job seems urgent and it sounds like it'll be worth my while. As soon as it's done, I'm out.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="17">Hello to you too I guess...</AddIRCMessage>
-	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="devNode" Delay="21">Oh @#PLAYERNAME#, I see you're in on this too. Well if he managed to persuade you to join, then I'll trust him. Now let's get down to business, are you gonna tell us what's going on or what?</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="31">All you need to know is that a rogue hacker has valuable tools and we're going to pay him a visit.</AddIRCMessage>
-	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="devNode" Delay="37">I'd like more of an explanation than that.</AddIRCMessage>
-	<AddIRCMessage Author="Crymz0n" TargetComp="crymz0nHub" DelayHost="devNode" Delay="41">All in due time my friend, anyway for now you two can get to work on other jobs while I search for the others.</AddIRCMessage>
-	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="devNode" Delay="47">Hmph, typical. @#PLAYERNAME#, I don't see how you stayed friends with him after what he did.</AddIRCMessage>
-	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="devNode" Delay="52">But I'll play his game, see where it takes me.</AddIRCMessage>
-	<AddIRCMessage Author="Ph4nt4sm" TargetComp="crymz0nHub" DelayHost="devNode" Delay="55">For now then I'm off to do some contracts, see you later!</AddIRCMessage>
+    <AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="5">Hey @Ph4nt4sm, you made it! Welcome!</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="cryHub" DelayHost="devNode" Delay="8">Yeah, I got your message. But let me make one thing clear - I'm only here because the job seems urgent and it sounds like it'll be worth my while. As soon as it's done, I'm out.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="17">Hello to you too I guess...</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="cryHub" DelayHost="devNode" Delay="21">Oh @#PLAYERNAME#, I see you're in on this too. Well if he managed to persuade you to join, then I'll trust him. Now let's get down to business, are you gonna tell us what's going on or what?</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="31">All you need to know is that a rogue hacker has valuable tools and we're going to pay him a visit.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="cryHub" DelayHost="devNode" Delay="37">I'd like more of an explanation than that.</AddIRCMessage>
+	<AddIRCMessage Author="Crymz0n" TargetComp="cryHub" DelayHost="devNode" Delay="41">All in due time my friend, anyway for now you two can get to work on other jobs while I search for the others.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="cryHub" DelayHost="devNode" Delay="47">Hmph, typical. @#PLAYERNAME#, I don't see how you stayed friends with him after what he did.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="cryHub" DelayHost="devNode" Delay="52">But I'll play his game, see where it takes me.</AddIRCMessage>
+	<AddIRCMessage Author="Ph4nt4sm" TargetComp="cryHub" DelayHost="devNode" Delay="55">For now then I'm off to do some contracts, see you later!</AddIRCMessage>
 	
+  </HasFlags>
+  
+  <HasFlags requiredFlags="xioDialogue">
+  
+	
+  
+  </HasFlags>
+  
+  <HasFlags requiredFlags="lynDialogue">
+  
+	
+  
+  </HasFlags>
+  
+  <HasFlags requiredFlags="alpDialogue">
+  
+	
+  
+  </HasFlags>
+  
+  <HasFlags requiredFlags="oveDialogue">
+  
+	
+  
   </HasFlags>
 
 </ConditionalActions>

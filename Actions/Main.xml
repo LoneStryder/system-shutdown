@@ -4,27 +4,27 @@
   
   <Instantly>
   
-    <RunFunction FunctionName="setFaction:crymz0nFaction" FunctionValue="0"/>
-    <RunFunction FunctionName="setHubServer:crymz0nHub" FunctionValue="0"/>
-	<RunFunction FunctionName="setAssetServer:crymz0nAssetStash" FunctionValue="0"/>
+    <RunFunction FunctionName="setFaction:cryFaction"/>
+    <RunFunction FunctionName="setHubServer:cryHub"/>
+	  <RunFunction FunctionName="setAssetServer:cryAssetStash"/>
 	
-	<AddMissionToHubServer MissionFilepath="Missions/Side/MissionSet01/AUniqueMod.xml" TargetComp="crymz0nHub"/>
-    <AddMissionToHubServer MissionFilepath="Missions/Side/MissionSet01/SubtleInterference.xml" TargetComp="crymz0nHub"/>
-    <AddMissionToHubServer MissionFilepath="Missions/Main/Crymz0n/Crymz0nTrial03.xml" TargetComp="crymz0nHub" AssignmentTag="Crymz0n" StartsComplete="false"/>
+	  <AddMissionToHubServer MissionFilepath="Missions/Main/Crymz0n/Crymz0nTrial01.xml" TargetComp="cryHub" AssignmentTag="Crymz0n"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Side/MissionSet01/SubtleInterference.xml" TargetComp="cryHub"/>
+    <AddMissionToHubServer MissionFilepath="Missions/Main/Crymz0n/Crymz0nTrial03.xml" TargetComp="cryHub" AssignmentTag="Crymz0n"/>
 	
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/Ph4nt4smSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/XioSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/LynxSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/AlphaSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/0verrideSkip.xml" TargetComp="devNode" StartsComplete="false"/>
-	<AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/EndingSkip.xml" TargetComp="devNode" StartsComplete="false"/>
+	  <AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/Ph4nt4smSkip.xml" TargetComp="devNode"/>
+	  <AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/XioSkip.xml" TargetComp="devNode"/>
+	  <AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/LynxSkip.xml" TargetComp="devNode"/>
+	  <AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/AlphaSkip.xml" TargetComp="devNode"/>
+	  <AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/0verrideSkip.xml" TargetComp="devNode"/>
+	  <AddMissionToHubServer MissionFilepath="Missions/Misc/Dev/EndingSkip.xml" TargetComp="devNode"/>
 	
-	<AddConditionalActions Filepath="Actions/Side.xml"/>
-	<AddConditionalActions Filepath="Actions/Dialogue.xml"/>
+  	<AddConditionalActions Filepath="Actions/Side.xml"/>
+	  <AddConditionalActions Filepath="Actions/Dialogue.xml"/>
 	
   </Instantly>
   
-  <HasFlags requiredFlags="trialsStart">
+  <HasFlags requiredFlags="triStart">
   
     <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
 	
@@ -32,17 +32,18 @@
   
   <!-- Ph4nt4sm Questline Actions -->
   
-  <HasFlags requiredFlags="ph4nt4smStage">
+  <HasFlags requiredFlags="phaStart">
   
-	<RunFunction FunctionName="playCustomSong:Music/Old_Tapes.ogg"/>
+	  <RunFunction FunctionName="playCustomSong:Music/Old_Tapes.ogg"/>
+  	<LoadMission MissionName="Missions/Main/Ph4nt4sm/Ph4nt4smMission01.xml"/>
 	
-	<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
-	<AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
-	<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
-	<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
-	<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+  	<AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="cryAssetStash" TargetFolderpath="bin/Programs"/>
+  	<AddAsset FileName="FTPBounce.exe" FileContents="#FTP_CRACK#" TargetComp="cryAssetStash" TargetFolderpath="bin/Programs"/>
+  	<AddAsset FileName="SMTPOverflow.exe" FileContents="#SMTP_CRACK#" TargetComp="cryAssetStash" TargetFolderpath="bin/Programs"/>
+  	<AddAsset FileName="WebServerWorm.exe" FileContents="#WEB_CRACK#" TargetComp="cryAssetStash" TargetFolderpath="bin/Programs"/>
+  	<AddAsset FileName="eosDeviceScan.exe" FileContents="#EOS_SCANNER_EXE#" TargetComp="cryAssetStash" TargetFolderpath="bin/Programs"/>
 	
-	<AddAsset path="home" FileName="Ph4nt4smRecruitmentMessage.txt" FileContents="Hey Ph4nt4sm,
+  	<AddAsset path="home" FileName="Ph4nt4smRecruitmentMessage.txt" FileContents="Hey Ph4nt4sm,
 
 I know it's been a while since we last spoke... too long, but something extremely important has come up and need you for a job.
   
@@ -54,64 +55,66 @@ Please hurry, the task at hand is urgent.
 
 -Crymz0n
   
-P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR LOGS!" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+P.S, I know being clean isn't your forte, but please... LEARN TO CLEAN UP YOUR LOGS!" TargetComp="cryAssetStash" TargetFolderpath="home"/>
 
   </HasFlags>
 
   <!-- Xioreus Questline Actions -->
   
-  <HasFlags requiredFlags="Z10NStage">
+  <HasFlags requiredFlags="xioStart">
 	
-	<RunFunction FunctionName="changeSongDLC" FunctionValue="4"/>
-	<AddAsset FileName="Important_Message.dec" FileContents="#BINARY#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+	  <LoadMission MissionName="Missions/Main/Xioreus/XioMission01.xml"/>
+	  <RunFunction FunctionName="changeSongDLC" FunctionValue="4"/>
+	
+	  <AddAsset FileName="Important_Message.dec" FileContents="#BINARY#" TargetComp="cryAssetStash" TargetFolderpath="home"/>
 	
   </HasFlags>
   
-  <HasFlags requiredFlags="Z10NStage2">
+  <HasFlags requiredFlags="decHead">
   
-    <AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="crymz0nAssetStash" TargetFolderpath="bin/Programs"/>
+    <AddAsset FileName="DECHead.exe" FileContents="#DECHEAD_PROGRAM#" TargetComp="cryAssetStash" TargetFolderpath="bin/Programs"/>
 	
   </HasFlags>
   
   <!-- Lynx Questline Actions -->
   
-  <HasFlags requiredFlags="LynxStage">
+  <HasFlags requiredFlags="lynStart">
 	
-	<LoadMission MissionName="Missions/Main/Lynx/LynxMission01.xml"/>
-	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
+	  <LoadMission MissionName="Missions/Main/Lynx/LynxMission01.xml"/>
+	  <!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
 	
   </HasFlags>
   
   <!-- Alpha Questline Actions -->
   
-  <HasFlags requiredFlags="alphaStage">
+  <HasFlags requiredFlags="alpStart">
   
     <LoadMission MissionName="Missions/Main/Alpha/AlphaMission01.xml"/>
-	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
+	  <!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
   
   </HasFlags>
   
   <!-- 0verride Questline Actions -->
   
-  <HasFlags requiredFlags="overrideStage">
+  <HasFlags requiredFlags="oveStart">
   
     <LoadMission MissionName="Missions/Main/0verride/0verrideMission01.xml"/>
-	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
+  	<!-- <RunFunction FunctionName="playCustomSong:Music/Example.ogg"/> -->
 	
   </HasFlags>
   
   <!-- Ending Actions -->
   
-  <OnConnect target="ex0dusProxyNode03">
+  <OnConnect target="exoProxy03">
   
-	<LaunchHackScript Filepath="Scripts/Ex0dusTrace.txt" DelayHost="devNode" Delay="5.5"/>
-	<LaunchHackScript Filepath="Scripts/Ex0dusThreat.txt" DelayHost="devNode" Delay="5.5"/>
+  	<LaunchHackScript Filepath="Scripts/Ex0dusTrace01.txt" DelayHost="devNode" Delay="5.5"/>
+  	<LaunchHackScript Filepath="Scripts/Ex0dusTrace02.txt" DelayHost="devNode" Delay="5.5"/>
   
   </OnConnect>
   
   <OnDisconnect target="ispComp">
   
-	<LoadMission MissionName="Missions/Main/Ex0dus/EndCredits.xml"/>
+  	<LoadMission MissionName="Missions/Main/Ex0dus/EndCredits.xml"/>
   
   </OnDisconnect>
   

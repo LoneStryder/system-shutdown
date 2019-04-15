@@ -1,13 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="trialMission03">
+<mission id="triMission03">
   <goals>
-    <goal type="fileupload" target="tritechMainframe" file="TriTechPlans.dec" path="home"
-	destTarget="crymz0nDropServer" destPath="Drop/Uploads"/>
+    <goal type="fileupload" target="cryTriTechMain" file="FinancialReport_Q3.dec" path="home" destTarget="cryDrop" destPath="Drop/Uploads"/>
   </goals>
-  
-  <!--Add your mission start and end items here-->
-  <missionStart val="0">NONE</missionStart>
-  <missionEnd val="1">NONE</missionEnd> 
   
   <nextMission>Missions/Main/Crymz0n/Crymz0nTrialPass.xml</nextMission>
   
@@ -25,8 +20,8 @@ There's one more security measure I haven't told you about, but you probably rem
 
 That concludes Crymz0n's noob guide to hacking. See you on the other side!</body>
     <attachments>
-      <link comp="tritechWeb"/>
-	  <link comp="crymz0nDropServer"/>
+      <link comp="cryTriTechWeb"/>
+	  <link comp="cryDrop"/>
     </attachments>
   </email>
 </mission>

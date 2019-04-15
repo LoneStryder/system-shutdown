@@ -1,12 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="fms1">
+<mission id="sidUniqueMod">
   <goals>
   </goals>
-  <!-- 
-  Add your mission start and end items here
-  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
-  missionEnd val="1">NONE</missionEnd> 
-  -->
+  
+  <missionEnd val="1">addFlags:phaStart</missionEnd>
   
   <nextMission IsSilent="false">Missions/Main/Ph4nt4sm/Ph4nt4smMission01.xml</nextMission>
 

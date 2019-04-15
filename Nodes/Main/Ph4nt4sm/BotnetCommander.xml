@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="pv2" name="Joseph Stetsmen's PC" ip="209.62.47.127" type="2">
+<Computer id="pv2" name="Joseph Stetson's PC" ip="209.62.47.127" type="2">
 
   <portsForCrack val="2" />
   <ports>80, 25, 21</ports>

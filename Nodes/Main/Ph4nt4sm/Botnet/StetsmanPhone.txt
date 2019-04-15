@@ -1,0 +1,3 @@
+Evidence of tampering.
+User's fault for infection.
+New IP in either botnet app or sys files.

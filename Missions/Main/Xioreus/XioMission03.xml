@@ -1,17 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="Z10NMission03">
+<mission id="xioMission03">
   <goals>
     <goal type="filedownload" target="basicPC" file="SQLBufferOverflow.exe" path="bin"/>
   </goals>
-  <!-- 
-  Add your mission start and end items here
-  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
-  missionEnd val="1">addRank</missionEnd> 
-  -->
+
   <nextMission>Missions/Main/Xioreus/XioMission04.xml</nextMission>
-  <!-- 
-  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
-  -->
+
   <email>
     <sender>Crymz0n</sender>
     <subject>The Ports Strike Back</subject>

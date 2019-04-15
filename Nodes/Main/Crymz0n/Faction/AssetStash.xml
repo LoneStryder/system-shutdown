@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="crymz0nAssetStash" name="Crymz0n Squad Asset Stash" type="empty">
+<Computer id="cryAssetStash" name="Crymz0n Squad Asset Stash" type="empty">
 
   <portsForCrack val="5"/>
   <ports>22, 21, 25</ports>

@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="trialComplete">
+<mission id="triPassed">
   <goals>
   </goals>
   <!-- 
@@ -22,9 +22,9 @@ Anyway I'm sending you the links to the IRC and asset stash, so far the stash on
 
 This'll all be worth it, I promise.</body>
     <attachments>
-      <link comp="crymz0nHub"/>
-	  <link comp="crymz0nAssetStash"/>
-	  <account comp="crymz0nAssetStash" user="#PLAYERNAME#" pass="rosered"/>
+      <link comp="cryHub"/>
+	  <link comp="cryAssetStash"/>
+	  <account comp="cryAssetStash" user="#PLAYERNAME#" pass="rosered"/>
     </attachments>
   </email>
 </mission>

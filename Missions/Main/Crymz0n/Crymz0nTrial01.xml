@@ -1,20 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="trialMission01">
+<mission id="triMission01">
   <goals>
-    <goal type="getadmin" target="crymz0nBackupStash"/>
+    <goal type="getadmin" target="cryBackupStash"/>
   </goals>
-
-  <!--Add your mission start and end items here-->
-  
-  <!--
-  missionStart val="0">loadConditionalActions:Actions/Trial01StartActions.xml</missionStart>
-  missionEnd val="1">NONE</missionEnd> 
-  -->
  
   <nextMission>Missions/Main/Crymz0n/Crymz0nTrial02.xml</nextMission>
-  <!-- 
-  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
-  -->
+
   <email>
     <sender>Crymz0n</sender>
     <subject>First Challenge</subject>
@@ -30,7 +21,7 @@ To run it just type 'SSHCrack' and then the port number. Usually it's 22.
 	
 Good luck.</body>
     <attachments>
-      <link comp="crymz0nBackupStash"/>
+      <link comp="cryBackupStash"/>
 	  <link comp="netEduComp"/>
     </attachments>
   </email>

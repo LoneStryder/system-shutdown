@@ -1,9 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<mission id="sms1">
+<mission id="sidDishonestDevs">
   <goals>
-    <goal type="filechange" target="oblivionmain" file="BLACKLIST.txt" path="home/Blacklist" keyword="192.164.9.4" removal="true"/>
-	<goal type="filechange" target="oblivionmain" file="BLACKLIST.txt" path="home/Blacklist" keyword="184.253.4.19" caseSensitive="true"/>
+    <goal type="filechange" target="sidOblivionMain" file="BLACKLIST.txt" path="home/Blacklist" keyword="192.164.9.4" removal="true"/>
+	<goal type="filechange" target="sidOblivionMain" file="BLACKLIST.txt" path="home/Blacklist" keyword="184.253.4.19" caseSensitive="true"/>
   </goals>
+  
+  <missionEnd val="1">addFlags:xioStart</missionEnd>
   
   <nextMission IsSilent="false">Missions/Main/Xioreus/XioMission01.xml</nextMission>
  
@@ -25,8 +27,8 @@ The critic's IP address and the company's mainframe is linked below however you'
 
 TLDR: Gain access to the mainframe, find the lead developer's IP address, edit the blacklist found on the mainframe and replace the IP address listed below with the lead developer's.</body>
     <attachments>
-	  <link comp="oblivionmain"/>
-      <link comp="tympc"/>
+	  <link comp="sidOblivionMain"/>
+      <link comp="sidTymekPC"/>
 	  <note title="Editing Text">To edit text on a document simply use the command 'replace' followed by the string you wish to replace, surrounded by speech marks. Finally add what you want the text to be replaced with surround with another pair of speech marks.
 Example: replace "hello world" "bye world"
 The above example would result in the first string (hello world) being replaced with the second string (bye world).</note>

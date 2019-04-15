@@ -4,8 +4,6 @@
   <goals>
     <goal type="getstring" target="164.42.54.214"/>
   </goals>
-
-  <missionStart val="0">addFlags:ph4nt4smStage</missionStart>
  
   <nextMission>Missions/Main/Ph4nt4sm/Ph4nt4smMission02.xml</nextMission>
   

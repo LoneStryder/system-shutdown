@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="lynxpc" name="Lynx's PC" type="2">
+
+  <portsForCrack val="2" />
+  <ports>22, 21, 25, 1433</ports>
+  <trace time="-1" />
+  <firewall level="7" solution="PKROWSY" additionalTime="1.0"/>
+  
+</Computer>

@@ -2,7 +2,7 @@
 <mission id="LynxMission01">
   
   <goals>
-    <goal type="fileupload" target="dPsyInternal" file="Employee_Breach_Incident.dec" path="projects/investigations" destTarget="crymz0nDropServer" destPath="Drop/Uploads" decrypt="true"/>
+    <goal type="fileupload" target="dPsyInternal" file="Employee_Breach_Incident.dec" path="projects/investigations" destTarget="cryDrop" destPath="Drop/Uploads" decrypt="true"/>
   </goals>
 
   <missionStart val="0">addFlags:LynxStage</missionStart>

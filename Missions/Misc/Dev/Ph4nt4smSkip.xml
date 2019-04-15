@@ -2,12 +2,10 @@
 <mission id="phaSkip">
   <goals>
   </goals>
-  <!-- 
-  Add your mission start and end items here
-  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
-  -->
   
-  <nextMission IsSilent="false">Missions/Main/Ph4nt4sm/Ph4nt4smMission01.xml</nextMission>
+  <missionEnd val="1">addFlags:phaStart</missionEnd> 
+  
+  <nextMission>NONE</nextMission>
 
   <posting title="Skip to Ph4nt4sm">This mission will allow skipping to further the plot.</posting>
 

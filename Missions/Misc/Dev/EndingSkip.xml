@@ -8,7 +8,7 @@
   -->
   <missionEnd val="1">addFlags:demoEnding,CSEC_Member</missionEnd> 
   
-  <nextMission IsSilent="false">NONE</nextMission>
+  <nextMission>NONE</nextMission>
 
   <posting title="Skip to Ending">This mission will activate the CODENAME: Downfall demo ending.</posting>
 

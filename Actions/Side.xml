@@ -2,9 +2,9 @@
 
   <!-- First Mission Set Actions -->
   
-  <HasFlags requiredFlags="DDoSerStart">
+  <HasFlags requiredFlags="ddosStart">
   
-	<AddAsset FileName="NetworkBuster_SCRIPT.txt" FileContents="#BINARYSMALL#73316738003567#BINARYSMALL#" TargetComp="crymz0nAssetStash" TargetFolderpath="home"/>
+	<AddAsset FileName="bootinjector.dll" FileContents="#BINARY#" TargetComp="cryAssetStash" TargetFolderpath="home"/>
 	
   </HasFlags>
 
