@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="devNode" name="Developer Node" icon="DLCServer" ip="4.3.2.1" type="empty">
+
+  <FastActionHost/>
+
+  <DHSDaemon groupName="Developer Node" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255,0,97" allowContractAbbandon="false"></DHSDaemon>
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+ 
+  <file path="home" name="welcome.txt">Welcome to the developer computer. This is where files that are currently being tested for future use will show up, enjoy the tools!</file>
+
+  <file path="bin" name="NoteDumper.exe">#NOTES_DUMPER_EXE#</file>
+   
+</Computer>

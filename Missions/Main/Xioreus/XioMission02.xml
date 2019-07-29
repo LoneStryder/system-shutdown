@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xioMission02">
+
+  <goals>
+    <goal type="getstring" target="167.423.67.89"/>
+  </goals>
+
+  <missionStart val="0">addFlags:decHead</missionStart>
+  <nextMission>Missions/Main/Xioreus/XioMission03.xml</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Location Received</subject>
+    <body>This is definitely the file Xio would've taken, how did you get this?
+
+No matter, I'm adding one of my programs to the asset server, it's called DECHead. It should help you find out where this file came from and, hopefully, where Xio is located.
+
+If you have any trouble as always, send me the IP address.</body>
+    <attachments>
+    </attachments>
+  </email>
+
+</mission>

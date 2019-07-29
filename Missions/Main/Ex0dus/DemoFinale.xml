@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="exoDemoEnding" activeCheck="true">
+
+  <goals>
+	  <goal type="getadmin" target="ispComp"/>
+  </goals>
+  
+  <missionStart val="0">addFlags:CSEC_Member</missionStart>
+  <missionEnd val="1">addFlags:DemoComplete</missionEnd> 
+  <nextMission IsSilent="false">NONE</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Look What I've Found</subject>
+    <body>Hey #PLAYERNAME#! Good news!
+	
+	
+While searching for the others I found an IP address to one of our target's proxy nodes.
+
+When you have the time you should go check it out and see what we're up against.
+
+
+Onward to victory!</body>
+    <attachments>
+      <link comp="exoProxy03"/>
+    </attachments>
+  </email>
+
+</mission>

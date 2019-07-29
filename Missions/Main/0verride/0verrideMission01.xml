@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="oveMission01" activeCheck="true">
+
+  <goals>
+  </goals>
+
+  <missionStart val="0">addFlags:overrideStage</missionStart>
+  <nextMission IsSilent="false">NONE</nextMission>
+
+  <email>
+    <sender>Stryder</sender>
+    <subject>Back To Work</subject>
+    <body>This is a blank mission file. Go make something out of it.</body>
+    <attachments>
+    </attachments>
+  </email>
+
+</mission>

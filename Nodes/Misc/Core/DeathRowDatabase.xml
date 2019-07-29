@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="deathRow" name="Death Row Records Database" ip="168.51.178.4" security="5" type="4">
+  <adminPass pass="texas" />
+  <admin type="fast" resetPassword="false"/>
+
+  <portsForCrack val="3" />
+  <ports>80, 21, 1433</ports>
+  <firewall solution="AHSUNYAG" />
+  <proxy time="-1" />
+  <trace time="160" />
+  
+  <file path="home/SECURE/ProtectedFolder/AdminOnly" name="InternalMemo.txt">
+  As director of this program I am trying to log into this computer that I AM MEANT TO BE IN CONTROL OF and the IT staff have changed the password. AGAIN!
+  
+  This has happened far too many times and is costing our company my valuable time. From now on the password here should be kept as "texas" - a choice I made personally.
+  I'm storing this memo in a secure location for future reference. I've put a date on it so that it can be used as legal material if you insist on wasting my time in the future.
+  
+  DO NOT MAKE ME REPEAT THIS!
+  
+  POSTED 04/02/2012
+  
+  Brad Collier
+  Executive Director - Records Division
+  Department of Criminal Justice
+  </file>
+  
+  <deathRowDatabase />
+  
+</Computer>

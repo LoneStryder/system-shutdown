@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="lynMission03">
+  
+  <goals>
+    <goal type="getadmin" target="lp"/>
+  </goals>
+ 
+  <nextMission>Missions/Main/Lynx/LynxMission03.xml</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>A Memory of The Past</subject>
+    <body>Nice, you actually found what we need!
+
+Looks like Psylance have produced a new batch of memory dumps for the forensics team to analyze, how about we check those dumps instead?
+
+If you find anything related to Lynx in those memory dumps, wipe them from Psylance's servers. Make sure to keep a copy for yourself though.
+
+Delete their dump generator too for good measure. We don't want Psylance coming after you instead.
+
+Reply back if you find your way into any of Lynx's systems.
+
+	  </body>
+	
+	  <attachments>
+    </attachments>
+  
+  </email>
+  
+</mission>

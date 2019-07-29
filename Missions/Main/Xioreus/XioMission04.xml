@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xioMission04">
+
+  <goals>
+    <goal type="fileupload" target="cryAssetStash" file="Important_Message.dec" path="home" destTarget="Z10NPC" destPath="home"/>
+  </goals>
+
+  <nextMission>Missions/Ex0dus/DemoFinale.xml</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>A Message to Xio</subject>
+    <body>Finally, we're in.
+	
+Now all you need to do is find Xio's PC and drop him the message I've created.
+
+I've heavily encrypted the message too, just to see if he's still got what it takes. (And to piss him off for a while.) As always you'll find it on the asset server.
+
+Reply to me when you've done it.</body>
+    <attachments>
+    </attachments>
+  </email>
+  
+</mission>

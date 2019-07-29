@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="cryTrial01">
+
+  <goals>
+    <goal type="getadmin" target="cryBackupStash"/>
+  </goals>
+ 
+  <nextMission>Missions/Main/Crymz0n/Trials/Crymz0nTrial02.xml</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>First Challenge</subject>
+    <body>Right, lets get started then.
+	
+	
+Remember our old asset stash? The one with all the good programs? Well it was wiped by some jackass named Naix a few months back, so we're running short on tools. I'll need to to breach our abandoned backup stash and see what you can find, for all I know it could be wiped clean so here's hoping that there's something left to take. The security should be weak enough that you can hack it on your own. Just run PortHack and you should be fine. Breach the system to complete the challenge.
+
+I've also attached a link to and old archive I found, it should teach you anything I forget to mention.
+
+One more thing, I'm sending you a program just in case it's tougher than expected. It's called SSHCrack, check your /bin directory for it.
+To run it just type 'SSHCrack' and then the port number. Usually it's 22.
+	
+Good luck.</body>
+    <attachments>
+      <link comp="cryBackupStash"/>
+	  <link comp="netEduComp"/>
+    </attachments>
+  </email>
+  
+</mission>

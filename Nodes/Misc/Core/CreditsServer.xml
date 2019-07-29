@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits" name="Crymz0n Core Mainframe" security="5" type="4">
+
+  <file path="home" name="CreditsData.txt">
+%---  System Shutdown  ---
+
+^Developed by Stryder and Jammy.
+
+
+
+^Music
+0ld Tapes - Tonspender
+
+^Themes
+Max Pixel - Spiral Theme
+hdimageson - Transition Themes
+
+^Writer
+Stryder
+
+^Testers
+Thundor
+
+^Special thanks to...
+
+Matt Trobbiani, for creating the game we all know and love.
+
+And KBM, for gracing us mere mortals with the enlightenment that is Pwnage.
+
+
+
+A passion project created for the #HackerJAM competition.
+
+
+
+%Thanks for playing!
+
+</file>
+
+  <CreditsDaemon Title="Primary Protocols" ButtonText=">Shutdown_" ConditionalActionSetToRunOnButtonPressPath="Actions/Credits.xml"/>
+  
+</Computer>

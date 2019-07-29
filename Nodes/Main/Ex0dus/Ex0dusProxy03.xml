@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="exoProxy03" name="Ex0dus Proxy Node 3" icon="DLCServer" type="empty">
+
+  <portsForCrack val="101"/>
+  <ports>22</ports>
+  <trace time="-1" />
+
+  <file path="home" name="Well_Done.txt">Clever girl. Now turn debug commands off please.</file>
+
+   <file path="bin" name="SSHBreach.exe">#SSH_CRACK#</file>
+   <file path="bin" name="FTPStop.exe">#FTP_CRACK#</file>
+   <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+   <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  
+</Computer>

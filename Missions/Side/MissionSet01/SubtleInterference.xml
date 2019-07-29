@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="sidSubtleInterference">
+  <goals>
+    <goal type="clearfolder" target="sidToadPC" path="home/PacketBomb"/>
+	<goal type="clearfolder" target="sidToadPi" path="home/PacketBomb"/>
+	<goal type="fileupload" target="cryAssetStash" file="bootinjector.dll" path="home" destTarget="sidToadPC" destPath="sys"/>
+  </goals>
+
+  <missionStart val="0">addFlags:ddosStart</missionStart>
+  <missionEnd val="1">addFlags:phaStart</missionEnd> 
+  
+  <nextMission>NONE</nextMission>
+ 
+  <posting title="Subtle Interference">Take care of a script kiddie who's been interfering with the IRC.</posting>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Subtle Interference</subject>
+    <body>I'll make this quick, since I'd like this guy dealt with ASAP.
+	
+I caught our IRC's IP address floating around the Blackhat forums a little while ago, a script kiddie's been DDoSing us ever since.
+
+He's probably just wants our attention, so that's exactly what we'll give him. Hack into his PC and delete whatever DDoS tool he's using along with any backups. After that I want you to upload a custom injector from the asset stash into his system files. Next time he boots let's just say he'll learn a thing or two about messing with real hackers.
+
+Also you're free to deal as much collateral to his system as you want, if that's up your alley.
+
+This errand's an easy one, enjoy it.</body>
+
+    <attachments>
+      <link comp="sidToadPC"/>
+    </attachments>
+  </email>
+</mission>

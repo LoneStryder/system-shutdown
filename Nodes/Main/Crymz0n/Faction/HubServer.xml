@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryHub" name="Crymz0n Squad Hub Server" icon="DLCServer" type="empty">
+
+  <DHSDaemon groupName="Crymz0n Squad Hub Server" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="255,0,97" allowContractAbbandon="false">
+    <agent name="#PLAYERNAME#" pass="rosered" color="255,255,255"/>
+    <agent name="Crymz0n" pass="blackhawk" color="153,0,17"/>
+    <agent name="Ph4nt4sm" pass="emptyshell" color="76,207,255"/>
+	<agent name="Xioreus" pass="d3cryptor" color="10,216,58"/>
+	<agent name="Lynx" pass="joltbolt" color="255,212,71"/>
+	<agent name="AlphaProtocol" pass="missinglinks" color="255,128,20"/>
+	<agent name="0verride" pass="m3mcorrupt" color="255,25,0"/>
+  </DHSDaemon>
+
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+
+  <file path="home" name="blank.txt">Like a canvas.</file>
+
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+   
+</Computer>

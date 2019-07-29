@@ -1,7 +1,0 @@
-<?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="tympc" name="Tymek's Lizardware PC" ip="192.164.9.4" icon="Psylance" type="empty">
-
-<portsForCrack val="1" />
-<ports>25, 22, 21,</ports>
-  
-</Computer>

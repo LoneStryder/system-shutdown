@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryDrop" name="Crymz0n Squad Drop Server" icon="DLCServer" type="empty">
+
+  <uploadServerDaemon name="Crymz0n Squad Drop Server" folder="Drop" needsAuth="false" color="204,116,212"/>
+
+  <portsForCrack val="1" />
+  <ports>22</ports>
+  <trace time="-1" />
+
+  <file path="home" name="drop.txt">Drop test.</file>
+
+  <file path="bin" name="SSHBreach.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPStop.exe">#FTP_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file> 
+  
+</Computer>

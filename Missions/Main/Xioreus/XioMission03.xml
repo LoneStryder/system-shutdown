@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xioMission03">
+
+  <goals>
+    <goal type="filedownload" target="basicPC" file="SQLBufferOverflow.exe" path="bin"/>
+  </goals>
+
+  <nextMission>Missions/Main/Xioreus/XioMission04.xml</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>The Ports Strike Back</subject>
+    <body>Great, another port we can't break into, deja vu much?
+	
+Luckily this port isn't nearly as hard to find a tool for, so we should be fine.
+	
+I'll send you the IP to a guy that might have the program we need, MIGHT is the keyword there.
+	
+Reply back when you have a copy, whether it's from him or not.</body>
+    <attachments>
+	    <link comp="basicPC"/>
+    </attachments>
+  </email>
+
+</mission>

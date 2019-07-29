@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="cryTrial02">
+
+  <goals>
+    <goal type="clearfolder" target="cryDrekPC" path="sys"/>
+  </goals>
+
+  <nextMission>Missions/Main/Crymz0n/Trials/Crymz0nTrial03.xml</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Second Challenge</subject>
+    <body>Great, now onto the second challenge.
+	
+	
+This time you are going to be hacking into an old rivals 'battlestation' as he calls it, shouldn't be too hard to crack. You're probably going to need the programs you found on our backup server in order to get in.
+
+The last thing you need to know is that this guy is a firewall FANATIC! It's a shame Hacknet comes with the 'analyze' and 'solve' commands built-in isn't it?
+
+Delete his system files and reply back for the final challenge.</body>
+    <attachments>
+      <link comp="cryDrekPC"/>
+    </attachments>
+  </email>
+  
+</mission>

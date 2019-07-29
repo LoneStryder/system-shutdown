@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="cryTrial03">
+
+  <goals>
+    <goal type="fileupload" target="cryTriTechMain" file="FinancialReport_Q3.dec" path="home" destTarget="cryDrop" destPath="Drop/Uploads"/>
+  </goals>
+  
+  <nextMission>Missions/Main/Crymz0n/Trials/Crymz0nTrialPass.xml</nextMission>
+  
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Final Challenge</subject>
+    <body>Nice, you made it to the final challenge!
+	
+	
+The final challenge will need you to break into a corporations mainframe and copy an encrypted file to your machine. I was planning on taking it myself but it's the perfect opportunity for you to recall your skills. Just upload it to our new drop server and you're done.
+
+Once you've passed the challenge I'll send you a link to our old IRC chat. I've wiped the old messages so we can start fresh.
+
+There's one more security measure I haven't told you about, but you probably remembered everything I've gone through anyway. Corporations and professional hackers often use proxies to prevent us performing our modern age magic. You won't be able to run any programs until it's bypassed. To bypass it you'll want to run the 'shell' command on all of your unfortunate victim's systems and overload the proxy.
+
+That concludes Crymz0n's noob guide to hacking. See you on the other side!</body>
+    <attachments>
+      <link comp="cryTriTechWeb"/>
+	  <link comp="cryDrop"/>
+    </attachments>
+  </email>
+
+</mission>

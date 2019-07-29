@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="xioMission01">
+
+  <goals>
+    <goal type="fileupload" target="ssdWorkstation02" file="SouthSideDataQuarterlyReport.dec" path="home" destTarget="cryDrop" destPath="Drop/Uploads"/>
+  </goals>
+
+  <nextMission>Missions/Main/Xioreus/XioMission02.xml</nextMission>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Another Lead</subject>
+    <body>Hey, sorry to pull you off work but this is urgent.
+	
+	
+I think I've found a lead as to where Xioreus is located, but it's not going to be easy. I found an IRC log of a few freelance hackers talking about a recent file raid Xio was on. Apparently he stole an important data report and the corporation's going nuts! 
+
+Xio's always been the decryption expert, so I'm guessing the file he's taken was encrypted. Let's hope Xio's left something behind that could help us find him.
+
+I'm sending you the IP to the company's web server, you should be able to access the rest of the network from it. Like last time if you find anything you need me to check, like an IP or a file, send or upload it to me.
+
+
+We need Xio's skills on hand. Good luck.</body>
+    <attachments>
+      <link comp="ssdWorkstation01"/>
+    </attachments>
+  </email>
+  
+</mission>

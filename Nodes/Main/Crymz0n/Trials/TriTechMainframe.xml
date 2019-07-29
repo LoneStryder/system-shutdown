@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cryTriTechMain" name="TriTech Solutions Mainframe" type="3" security="5">
+
+  <portsForCrack val="4" />
+  <ports>22, 21, 25, 80</ports>
+  <trace time="-1" />
+  
+  <firewall level="6" solution="hcetirt"/>
+  <proxy time="1"/>
+  
+  <trace time="100"/>
+  <dlink target="cryTriTechWeb"/>
+  
+  <encryptedFile path="home" name="FinancialReport_Q3.dec" extension=".txt" ip="192.168.1.1" header="TriTech Financial Report Q3" pass="dfhdsghsfstrgbrtdhbvchryyo">
+    Yeah, we didn't develop the file this far... congrats on the decrypt though!
+  </encryptedFile>
+  
+</Computer>

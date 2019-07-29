@@ -1,44 +1,36 @@
 <HacknetExtension>
-  <!-- Max name length is 128 characters -->
-	<Name>System Shutdown</Name>
-	<AllowSaves>true</AllowSaves>
-  <!-- a coma separated list of notes that start out as being visible-->
-	<StartingVisibleNodes></StartingVisibleNodes>
+
+  <Name>System Shutdown</Name>    <!-- Max length 128 chars. -->
+  <AllowSaves>true</AllowSaves>
+  
+  <!-- 
+  <StartingVisibleNodes>NodeA,NodeB</StartingVisibleNodes>
+  -->
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/Crymz0n/Intro/Crymz0nTutorial.xml</StartingMission>
+  <StartingMission>Missions/Main/Crymz0n/Trials/Crymz0nTrial00.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
   If you don't need this, set it to "NONE", or just delete the tag.-->
-  <StartingActions>Actions/ExtensionActions.xml</StartingActions>
+  <StartingActions>Actions/Main.xml</StartingActions>
 
-  <!-- Description that appears within Hacknet -->
   <Description> --- System Shutdown ---
 
-A highly prestigious hacker has gone rogue, threatening to use new-found tools to obliterate anyone in his path. It's up to you to find and stop him.</Description>
+One of CSEC's top operatives has gone rogue, taking powerful and experimental hacking tools with him. It's up to your team to find and stop him.</Description>
   
-  <!-- Factions involved in this extension! You can define as many or as few as you like -->
+  <!-- Factions involved in this extension! You can define as many or as few as you like. -->
   <Faction>Factions/Crymz0nSquad.xml</Faction>
   
   <StartsWithTutorial>false</StartsWithTutorial>
   
-  <!-- this makes the extension start with the standard restart bootup sequence -->
+  <!-- This makes the extension start with the standard restart bootup sequence. -->
   <HasIntroStartup>true</HasIntroStartup>
   
+  <!-- Base Themes: TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint -->
   <StartingTheme>Themes/TransitionThemeAlt.xml</StartingTheme>
-  <!-- 
-  Base Themes are named:
-  TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
-  -->
-  
-  <!-- You can reference songs from the original game here, or your own .ogg files by path.
-  To reference original songs, use their name in the files! You don't need the path, just the filename. This works for any songs in these folders:
-  Content/Music
-  Content/DLC/Music
-  
-  To Play your own songs, use the path to that song in your extension.
-  For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
+
+  <!-- Can use original + labyrinths songs. Can use custom songs by referencing .ogg filepath. -->
   <IntroStartupSong>The_Quickening</IntroStartupSong>
 
   <!--
@@ -48,56 +40,40 @@ A highly prestigious hacker has gone rogue, threatening to use new-found tools t
   <ActionsToRunOnSequencerStart>Actions/FinalActions.xml</ActionsToRunOnSequencerStart>
   -->
   
-  <!-- Steam workshop fields -->
-  <!-- 
-  public string WorkshopDescription;
-        public string WorkshopLanguage;
-        public byte WorhsopVisibility = 2;
-        public string WorkshopTags;
-        public string WorkshopPreviewImagePath;
-  -->
+  <!-- Workshop Details -->
   
-  <WorkshopDescription>#HackerJAM honourable mention as a close competitor for third place. An exeptional re-introduction to Hacknet.
+  <WorkshopDescription>You've been a retired hacker for quite some time, until an old friend contacts you saying it's time to bring the gang back together.
+
+One of CSEC's top operatives has gone rogue, bringing with him an arsenal of powerful and experimental hacking tools. You and your team are going to find this hacker, and take back what he stole. But once you succeed, what will you decide to do with them?
 
 ----------------------------------------------------------------------------------------------------
 
-WARNING: Labyrinths DLC Required.
-http://store.steampowered.com/app/521840/Hacknet__Labyrinths/
+This is currently an unfinished expansion for Hacknet following a new protagonist and taking place after the events of Hacknet and Hacknet: Labyrinths.
 
-Visit our trello page to follow all CODENAME: Downfall developments.
-https://trello.com/b/jCkwegPX/codename-downfall-roadmap
+System Shutdown currently includes:
+
+- Between 1-2 hours of gameplay.
+- A thorough introduction covering the basics.
+- A new cast of detailed characters.
+- 2 complete main questlines. (5 Planned)
+- A few entertaining side missions.
+- Various nodes and networks to explore.
+- (Soon to be a few easter eggs, but their areas haven't been added yet.)
+
+And an accidental jumpscare near the end. ;P
+
+----------------------------------------------------------------------------------------------------
+
+#HackerJAM honourable mention as a close competitor for third place. An exceptional re-introduction to Hacknet.
+
+Visit our Trello page to follow our progress.
+https://trello.com/b/jCkwegPX/system-shutdown-roadmap
+
+We also have a GitHub if you don't mind spoilers.
+https://github.com/TheLoneStryder/system-shutdown
 
 If you want to try the original HackerJAM demo, here's the download link.
-http://www.moddb.com/downloads/mirror/126599/113/4f0851678744468c0d8d7768722bb20b/?referer=http%3A%2F%2Fwww.moddb.com%2Fmembers%2Fcrafter-bros106%2Fdownloads
-
-----------------------------------------------------------------------------------------------------
-
--- System Shutdown --
-
-A highly prestigious hacker has gone rogue, threatening to use new-found tools to obliterate anyone in his path. It's up to you to find and stop him.
-
-Rejoin the thrilling world of hacking you left long ago, and reunite with an old friend.
-
-Form an elite team of hackers and face a threat greater than you have ever faced before.
-
-Aquire new programs along the way and face countless new systems.
-
-(The demo has barely any of that yet, but it's a taster of what's to come. ;P)
-
-----------------------------------------------------------------------------------------------------
-
-Our Expansion Currently Offers:
-
-- Over an hour of gameplay.
-- 1 Immersing Introduction
-- 3 Introductory Trials
-- 2 Complete Questlines
-- 2 Side Missions
-- 5 Explorable Networks
-- 36 Nodes to Access
-- 1 Free (Accidental) Jumpscare
-
-All contained in over an hour of gameplay.
+http://www.moddb.com/groups/indie-gamers/downloads/codename-downfall-hackerjam-demo
 
 ----------------------------------------------------------------------------------------------------
 
@@ -105,33 +81,10 @@ We hope you enjoy the demo to our upcoming extension, if you have any suggestion
 
 - Stryder + Jammy</WorkshopDescription>
 
-  <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>
-
-  <!-- Sets the visibility of this item on the workshop.
-  0 = public
-  1 = friends only
-  2 = private (self only)-->
-  <WorkshopVisibility>0</WorkshopVisibility>
-
-  <!-- Comma separated list of tags that this should be listed under in the workshop. This is not currently used, as the only category
-  of workshop item in Hacknet is "Extension", so leave this as-is for now.-->
-  <WorkshopTags>Extension,Labyrinths</WorkshopTags>
-
-  <!-- Path to the preview image used on the steam workshop for your extension.
-  This must be within your mod folder, be 16x9 aspect ratio and less than 1MB in size. 
-  I recommend the highest resolution you can provide that fits that criteria, 
-  though steam will likely use a version less than 512x512 in size, and will auto resize it for you.
-  
-  This can be different to the provided Logo.png if you want, as this will not be transparently backed on steam.
-  Supported formats are .png, .jpg and .gif
-  -->
+  <WorkshopVisibility>0</WorkshopVisibility>    <!-- 0 = Public / 1 = Friends / 2 = Private -->
+  <WorkshopTags>Extension,Labyrinths</WorkshopTags>    <!-- Can only add approved tags. -->
   <WorkshopPreviewImagePath>WorkshopLogo.png</WorkshopPreviewImagePath>
-
-  <!-- This is the workshop publish ID. The first time your extension is published to Steam, this will be automatically populated with the ID that steam assigns it.
-  When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
-  and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
-  Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
   <WorkshopPublishID>942757413</WorkshopPublishID>
   
 </HacknetExtension>

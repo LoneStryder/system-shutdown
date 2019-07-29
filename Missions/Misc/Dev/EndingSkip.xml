@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="demoEndingTest">
+  <goals>
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  -->
+  <missionEnd val="1">addFlags:demoEnding,CSEC_Member</missionEnd> 
+  
+  <nextMission>NONE</nextMission>
+
+  <posting title="Skip to Ending">This mission will activate the CODENAME: Downfall demo ending.</posting>
+
+  <email>
+    <sender>Crymz0n</sender>
+    <subject>Test</subject>
+    <body>Reply to continue.</body>
+    <attachments>
+      <!-- Add attachments like links and notes here -->
+    </attachments>
+  </email>
+</mission>

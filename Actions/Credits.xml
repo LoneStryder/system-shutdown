@@ -1,0 +1,9 @@
+<ConditionalActions>
+  
+  <!-- this triggers immediately, as soon as this is finished loading! Actions will happen in the order they appear in this file.-->
+  <Instantly>
+    <RunFunction FunctionName="changeSongDLC" FunctionValue="8"/>
+    <AddIRCMessage Author="Jammy" TargetComp="cryHub" Delay="0.1">Naughty naughty, the credits aren't complete yet!</AddIRCMessage>
+  </Instantly>
+
+</ConditionalActions>

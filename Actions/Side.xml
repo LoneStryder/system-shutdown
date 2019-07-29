@@ -1,0 +1,31 @@
+<ConditionalActions>
+
+  <!-- First Mission Set Actions -->
+  
+  <HasFlags requiredFlags="ddosStart">
+  
+	  <AddAsset FileName="bootinjector.dll" FileContents="#BINARY#" TargetComp="cryAssetStash" TargetFolderpath="home"/>
+	
+  </HasFlags>
+
+  <!-- Second Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Third Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Forth Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Fifth Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+  
+  <!-- Sixth Mission Set Actions -->
+  
+  <!-- <HasFlags requiredFlags=""></HasFlags> -->
+
+</ConditionalActions>

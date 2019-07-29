@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="oblivionmain" name="Oblivion Digital Mainframe" icon="DLCServer" type="1">
+
+<portsForCrack val="3" />
+<ports>25, 22, 21, 80</ports>
+<firewall level="6" solution="DEV3LOPE"/>
+<proxy time="2"/>
+<trace time="120"/>
+
+<dlink target="oblivionmail"/>
+<dlink target="oblivionforum"/>
+
+<file path="home/Storage" name="End_Of_Year_Report.rar">#BINARY# #BINARY#</file>
+<file path="home/Storage/Development" name="Unified_Creation_Engine.rar">#BINARY# #BINARY#</file>
+<file path="home/Storage/Games" name="Nano_Ninja.rar">#BINARY# #BINARY#</file>
+<file path="home/Storage/Games" name="Elite_FlySwatter.rar">#BINARY# #BINARY#</file>
+<file path="home/Blacklist" name="About_The_Blacklist.txt">
+Uses of the blacklist:
+
+Blocks the IP addresses entered from accessing any company servers, including the mail server and forum server
+
+Any IP address inside the blacklist will need to go through moderation before being removed
+
+The blacklist can also be used to aid the process of removing an employee from the system (in the case of retirement or being fired)
+
+Only the current IT technician can gain access to the mainframe and therefore the blacklist
+...which means that this document is useless :( !</file>
+
+<file path="home/Blacklist" name="BLACKLIST.txt">
+192.164.9.4
+
+182.325.19.2
+
+182.543.18.2</file>
+  
+  
+</Computer>
