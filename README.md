@@ -1,6 +1,11 @@
 # System Shutdown
-The source code for the Steam Workshop extension 'System Shutdown' for Hacknet. Feel free to browse but beware of spoilers.
+System Shutdown is a Hacknet Extension created by Stryder and Jammy for the HackerJAM competition. Feel free to browse but beware of plot spoilers.
 
-**Usage Rights**
+## Download
+If you're looking for the latest stable release to play, use any of the following links:  
 
-Feel free to reuse our code to help build your own extension, but don't directly steal dialogue! You are only permitted to privately distribute our extension to non-steam Hacknet players that request it, do NOT redistribute our extension on other websites or services.
+Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=942757413
+Nexus Mods: https://www.nexusmods.com/hacknet/mods/9
+
+## Copyright
+System Shutdown is licensed under the [Obsidian Mod License](LICENSE.txt).

@@ -1,0 +1,11 @@
+Copyright © 2017-2021 Stryder and Jammy
+
+For the purposes of this license, a mod is defined as software used to modify a video game in order to alter one or more aspects (such as looks or behaviour).
+
+Permission to use, copy, modify, and/or distribute this mod's source code and associated documentation for any purpose with or without fee is hereby granted.
+
+Any mod contents not covered by the above statement are subject to their own licensing but can be freely distributed as part of the mod source/binaries.
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the mod.
+
+THE MOD IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS MOD INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS MOD.
